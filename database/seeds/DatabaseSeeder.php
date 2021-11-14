@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call(BannerSeeder::class);
         $this->call(UserCongratulationCategorySeeder::class);
         $this->call(UserImportantDateTypeSeeder::class);
-        $this->call(UserCongratulationSeeder::class);
+//        $this->call(UserCongratulationSeeder::class);
 //        $this->call(UserImportantDateSeeder::class);
 //        $this->call(DefaultImageSeeder::class);
     }

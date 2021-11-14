@@ -16,11 +16,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Birthday of Martin Luther King Jr.',
-                    'ru' => 'День рождения Мартина Лютера Кинга-младшего.'
+                    'ar' => 'День рождения Мартина Лютера Кинга-младшего.'
                 ],
                 'name' => [
                     'en' => 'Birthday of Martin Luther King Jr.',
-                    'ru' => 'День рождения Мартина Лютера Кинга-младшего.'
+                    'ar' => 'День рождения Мартина Лютера Кинга-младшего.'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Birthday of Martin Luther King Jr'),
                 'is_published' => false,
@@ -28,11 +28,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Christmas',
-                    'ru' => 'Рождество'
+                    'ar' => 'Рождество'
                 ],
                 'name' => [
                     'en' => 'Christmas',
-                    'ru' => 'Рождество'
+                    'ar' => 'Рождество'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Christmas'),
                 'is_published' => true,
@@ -40,11 +40,11 @@ class UserCongratulationCategorySeeder extends Seeder
 //            [
 //                'title' => [
 //                    'en' => 'Columbus Day',
-//                    'ru' => 'Columbus Day'
+//                    'ar' => 'Columbus Day'
 //                ],
 //                'name' => [
 //                    'en' => 'Columbus Day',
-//                    'ru' => 'Columbus Day'
+//                    'ar' => 'Columbus Day'
 //                ],
 //                'slug' => \Illuminate\Support\Str::slug('Columbus Day'),
 //                'is_published' => false,
@@ -52,11 +52,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Easter',
-                    'ru' => 'Пасха'
+                    'ar' => 'Пасха'
                 ],
                 'name' => [
                     'en' => 'Easter',
-                    'ru' => 'Пасха'
+                    'ar' => 'Пасха'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Easter'),
                 'is_published' => true,
@@ -64,11 +64,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Engagements',
-                    'ru' => 'Помолвка'
+                    'ar' => 'Помолвка'
                 ],
                 'name' => [
                     'en' => 'Engagements',
-                    'ru' => 'Помолвка'
+                    'ar' => 'Помолвка'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Engagements'),
                 'is_published' => true,
@@ -76,11 +76,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Father`s Day',
-                    'ru' => 'День отца'
+                    'ar' => 'День отца'
                 ],
                 'name' => [
                     'en' => 'Father`s Day',
-                    'ru' => 'День отца'
+                    'ar' => 'День отца'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Father`s Day'),
                 'is_published' => true,
@@ -88,11 +88,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Graduation',
-                    'ru' => 'Выпускной'
+                    'ar' => 'Выпускной'
                 ],
                 'name' => [
                     'en' => 'Graduation',
-                    'ru' => 'Выпускной'
+                    'ar' => 'Выпускной'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Graduation'),
                 'is_published' => true,
@@ -100,11 +100,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Happy anniversary',
-                    'ru' => 'С годовщиной'
+                    'ar' => 'С годовщиной'
                 ],
                 'name' => [
                     'en' => 'Happy anniversary',
-                    'ru' => 'С годовщинов'
+                    'ar' => 'С годовщинов'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Happy anniversary'),
                 'is_published' => true,
@@ -112,11 +112,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Happy birthday',
-                    'ru' => 'День рождения'
+                    'ar' => 'День рождения'
                 ],
                 'name' => [
                     'en' => 'Happy birthday',
-                    'ru' => 'День рождения'
+                    'ar' => 'День рождения'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Happy birthday'),
                 'is_published' => true,
@@ -124,11 +124,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Independence Day',
-                    'ru' => 'День независимости'
+                    'ar' => 'День независимости'
                 ],
                 'name' => [
                     'en' => 'Independence Day',
-                    'ru' => 'День независимости'
+                    'ar' => 'День независимости'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Independence Day'),
                 'is_published' => true,
@@ -136,11 +136,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Labor Day',
-                    'ru' => 'День труда'
+                    'ar' => 'День труда'
                 ],
                 'name' => [
                     'en' => 'Labor Day',
-                    'ru' => 'День труда'
+                    'ar' => 'День труда'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Labor Day'),
                 'is_published' => true,
@@ -148,11 +148,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Memorial Day',
-                    'ru' => 'День памяти'
+                    'ar' => 'День памяти'
                 ],
                 'name' => [
                     'en' => 'Memorial Day',
-                    'ru' => 'День памяти'
+                    'ar' => 'День памяти'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Memorial Day'),
                 'is_published' => true,
@@ -160,11 +160,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Mother`s Day',
-                    'ru' => 'День матери'
+                    'ar' => 'День матери'
                 ],
                 'name' => [
                     'en' => 'Mother`s Day',
-                    'ru' => 'День матери'
+                    'ar' => 'День матери'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Mother`s Day'),
                 'is_published' => true,
@@ -172,11 +172,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'New born',
-                    'ru' => 'С рождением'
+                    'ar' => 'С рождением'
                 ],
                 'name' => [
                     'en' => 'New born',
-                    'ru' => 'С рождением'
+                    'ar' => 'С рождением'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('New born'),
                 'is_published' => true,
@@ -184,11 +184,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'New home',
-                    'ru' => 'Новоселье'
+                    'ar' => 'Новоселье'
                 ],
                 'name' => [
                     'en' => 'New home',
-                    'ru' => 'Новоселье'
+                    'ar' => 'Новоселье'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('New home'),
                 'is_published' => true,
@@ -196,11 +196,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'New year',
-                    'ru' => 'Новый год'
+                    'ar' => 'Новый год'
                 ],
                 'name' => [
                     'en' => 'New year',
-                    'ru' => 'Новый год'
+                    'ar' => 'Новый год'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('New year'),
                 'is_published' => true,
@@ -208,11 +208,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Promotion',
-                    'ru' => 'Продвижение'
+                    'ar' => 'Продвижение'
                 ],
                 'name' => [
                     'en' => 'Promotion',
-                    'ru' => 'Продвижение'
+                    'ar' => 'Продвижение'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Promotion'),
                 'is_published' => true,
@@ -220,11 +220,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Starting a new business',
-                    'ru' => 'Старт нового бизнеса'
+                    'ar' => 'Старт нового бизнеса'
                 ],
                 'name' => [
                     'en' => 'Starting a new business',
-                    'ru' => 'Старт нового бизнеса'
+                    'ar' => 'Старт нового бизнеса'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Starting a new business'),
                 'is_published' => true,
@@ -232,11 +232,11 @@ class UserCongratulationCategorySeeder extends Seeder
 //            [
 //                'title' => [
 //                    'en' => 'Thanksgiving',
-//                    'ru' => 'Thanksgiving'
+//                    'ar' => 'Thanksgiving'
 //                ],
 //                'name' => [
 //                    'en' => 'Thanksgiving',
-//                    'ru' => 'Thanksgiving'
+//                    'ar' => 'Thanksgiving'
 //                ],
 //                'slug' => \Illuminate\Support\Str::slug('Thanksgiving'),
 //                'is_published' => false,
@@ -244,11 +244,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Veterans Day',
-                    'ru' => 'День ветеранов'
+                    'ar' => 'День ветеранов'
                 ],
                 'name' => [
                     'en' => 'Veterans Day',
-                    'ru' => 'День ветеранов'
+                    'ar' => 'День ветеранов'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Veterans Day'),
                 'is_published' => true,
@@ -256,11 +256,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Wedding',
-                    'ru' => 'Свадьба'
+                    'ar' => 'Свадьба'
                 ],
                 'name' => [
                     'en' => 'Wedding',
-                    'ru' => 'Свадьба'
+                    'ar' => 'Свадьба'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Wedding'),
                 'is_published' => true,
@@ -268,11 +268,11 @@ class UserCongratulationCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Other',
-                    'ru' => 'Другое'
+                    'ar' => 'Другое'
                 ],
                 'name' => [
                     'en' => '',
-                    'ru' => ''
+                    'ar' => ''
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Other'),
                 'is_published' => true,

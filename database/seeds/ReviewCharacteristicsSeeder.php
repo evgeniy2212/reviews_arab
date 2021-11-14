@@ -17,582 +17,585 @@ class ReviewCharacteristicsSeeder extends Seeder
              'person' => [
                  ['name' =>  [
                      'en' => 'Honest',
-                     'ru' => 'Честный',
+                     'ar' => 'أمين',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Loyal',
-                     'ru' => 'Лояльный',
+                     'ar' => 'مخلص',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Responsible',
-                     'ru' => 'Ответственный',
+                     'ar' => 'مسؤول',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Respectful',
-                     'ru' => 'Уважительный',
+                     'ar' => 'محترم',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Humble',
-                     'ru' => 'Скромный',
+                     'ar' => 'متواضع',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Forgiving',
-                     'ru' => 'Снисходительный',
+                     'ar' => 'سيء',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Compassionate',
-                     'ru' => 'Сострадательный',
+                     'ar' => 'رحيم',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Fair',
-                     'ru' => 'Справедливый',
+                     'ar' => 'عادل',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Authentic',
-                     'ru' => 'Аутентичный',
+                     'ar' => 'صادق',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Courageous',
-                     'ru' => 'Смелый',
+                     'ar' => 'شجاع',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Generous',
-                     'ru' => 'Щедрый',
+                     'ar' => 'كريم',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Polite',
-                     'ru' => 'Вежливый',
+                     'ar' => 'مؤدب',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Kind',
-                     'ru' => 'Добрый',
+                     'ar' => 'عطوف',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Loving',
-                     'ru' => 'Любящий',
+                     'ar' => 'محب',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Reliable',
-                     'ru' => 'Надежный',
+                     'ar' => 'جدير بالثقة',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Conscientious',
-                     'ru' => 'Добросовестный',
+                     'ar' => 'حي الضمير',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Patient',
-                     'ru' => 'Терпеливый',
+                     'ar' => 'صبور',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Thorough',
-                     'ru' => 'Тщательный',
+                     'ar' => 'شامل',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Dishonest',
-                     'ru' => 'Нечестный',
+                     'ar' => 'غير أمين',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Selfish',
-                     'ru' => 'Эгоистичный',
+                     'ar' => 'أناني',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Arrogant',
-                     'ru' => 'Высокомерный',
+                     'ar' => 'متكبر',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Rude',
-                     'ru' => 'Грубый',
+                     'ar' => 'وقح',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Cruel',
-                     'ru' => 'Жестокий',
+                     'ar' => 'قاسي',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Hypocritical',
-                     'ru' => 'Лицемерный',
+                     'ar' => 'منافق',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Jealous',
-                     'ru' => 'Ревнивый',
+                     'ar' => 'غيور',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Immoral',
-                     'ru' => 'Аморальный',
+                     'ar' => 'عديم الأخلاق',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Greedy',
-                     'ru' => 'Жадный',
+                     'ar' => 'جشع',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Lazy',
-                     'ru' => 'Ленивый',
+                     'ar' => 'كسول',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Unscrupulous',
-                     'ru' => 'Беспринципный',
+                     'ar' => 'عديم الضمير',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Vengeful',
-                     'ru' => 'Мстительный',
+                     'ar' => 'حاقد',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Deceptive',
-                     'ru' => 'Обманчивый',
+                     'ar' => 'مخادع',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Unforgiving',
-                     'ru' => 'Неумолимый',
+                     'ar' => 'متسامح',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Nasty',
-                     'ru' => 'Противный',
+                     'ar' => 'سيء',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Aggressive',
-                     'ru' => 'Агрессивный',
+                     'ar' => 'عدواني',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Disrespectful',
-                     'ru' => 'Неуважительный',
+                     'ar' => 'غير محترم',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Bossy',
-                     'ru' => 'Властный',
+                     'ar' => 'متسلط',
                  ], 'is_positive' => false, 'is_published' => true,],
              ],
              'company' => [
                  ['name' =>  [
                      'en' => 'Adventurous',
-                     'ru' => 'Авантюрный',
+                     'ar' => 'مغامر',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Agile',
-                     'ru' => 'Гибкий',
+                     'ar' => 'رشيق',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Challenging',
-                     'ru' => 'Испытывающий',
+                     'ar' => 'يتسم بروح التحدي',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Collaborative',
-                     'ru' => 'Совместный',
+                     'ar' => 'تعاوني',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Creative',
-                     'ru' => 'Творческий',
+                     'ar' => 'ابداعي',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Daring',
-                     'ru' => 'Смелый',
+                     'ar' => 'جريء',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Energetic',
-                     'ru' => 'Энергичный',
+                     'ar' => 'بالحيوية',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Energizing',
-                     'ru' => 'Возбуждающий',
+                     'ar' => 'محفز',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Fun',
-                     'ru' => 'Веселый',
+                     'ar' => 'غير داعم',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Friendly',
-                     'ru' => 'Дружелюбный',
+                     'ar' => 'ودود',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Inclusive',
-                     'ru' => 'Инклюзивный',
+                     'ar' => 'شامل',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Innovate',
-                     'ru' => 'Новаторский',
+                     'ar' => 'ابتكاري',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Inspiring',
-                     'ru' => 'Вдохновляющий',
+                     'ar' => 'ملهم',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Passionate',
-                     'ru' => 'Страстный',
+                     'ar' => 'عاطفي',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Playful',
-                     'ru' => 'Игривый',
+                     'ar' => 'لعوب',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Progressive',
-                     'ru' => 'Прогрессивный',
+                     'ar' => 'تقدمي',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Respectful',
-                     'ru' => 'Уважительный',
+                     'ar' => 'إدارة دقيقة',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Rewarding',
-                     'ru' => 'Награжденный',
+                     'ar' => 'مجزي',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
-                     'en' => 'Biased',
-                     'ru' => 'Пристрастный',
+                     'en' => 'ودود',
+                     'ar' => 'Пристрастный',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Boring',
-                     'ru' => 'Скучный',
+                     'ar' => 'ممل',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Discriminatory',
-                     'ru' => 'Ущемляющий',
+                     'ar' => 'قائم على التمييز',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Demanding',
-                     'ru' => 'Придирчивый',
+                     'ar' => 'كثير المطالب',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Disengaged',
-                     'ru' => 'Отключен',
+                     'ar' => 'منفصل',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Disrespectful',
-                     'ru' => 'Дерзкий',
+                     'ar' => 'لعوب',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Messy',
-                     'ru' => 'Неряшливый',
+                     'ar' => 'فوضوي',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Micromanaging',
-                     'ru' => 'Надзирающий',
+                     'ar' => 'إدارة دقيقة',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Inflexible',
-                     'ru' => 'Негибкий',
+                     'ar' => 'غير مرن',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Deceptive',
-                     'ru' => 'Обманчивый',
+                     'ar' => 'مخادع',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Outdated',
-                     'ru' => 'Устаревший',
+                     'ar' => 'شعبي',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Rigid',
-                     'ru' => 'Жесткий',
+                     'ar' => 'صارم',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Stressful',
-                     'ru' => 'Стрессовый',
+                     'ar' => 'مجهد',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Toxic',
-                     'ru' => 'Токсичный',
+                     'ar' => 'مسمم',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Unethical',
-                     'ru' => 'Неэтичный',
+                     'ar' => 'غير اخلاقي',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Unforgiving',
-                     'ru' => 'Неумолимый',
+                     'ar' => 'لا يرحم',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Unrewarding',
-                     'ru' => 'Пахабный',
+                     'ar' => 'غير مجزي',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Unsupportive',
-                     'ru' => 'Безучастный',
+                     'ar' => 'غير داعم',
                  ], 'is_positive' => false, 'is_published' => true,],
              ],
              'goods' => [
                  ['name' =>  [
                      'en' => 'Comfortable',
-                     'ru' => 'Комфортный',
+                     'ar' => 'مريح',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Durable',
-                     'ru' => 'Прочный',
+                     'ar' => 'يتحمل مع الزمن',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Effective',
-                     'ru' => 'Эффективный',
+                     'ar' => 'فعال',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
-                     'en' => 'Ideal',
-                     'ru' => 'Идеальный',
+                     'en' => 'منخفض الجودة',
+                     'ar' => 'منخفض الجودة',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Popular',
-                     'ru' => 'Популярный',
+                     'ar' => 'عفى عليه الزمن',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Quality',
-                     'ru' => 'Качественный',
+                     'ar' => 'ذو جودة',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Stylish',
-                     'ru' => 'Стильный',
+                     'ar' => 'أنيق',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Well-priced',
-                     'ru' => 'Недорогой',
-                 ], 'Well-priced', 'is_positive' => true, 'is_published' => true,],
+                     'ar' => 'سعر جيد',
+                 ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Useful',
-                     'ru' => 'Полезный',
+                     'ar' => 'مفيد',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Creamy',
-                     'ru' => 'Сливочный',
+                     'ar' => 'دسم',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Delicious',
-                     'ru' => 'Вкусный',
+                     'ar' => 'لذيذ',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Dangerous',
-                     'ru' => 'Опасный',
+                     'ar' => 'خطر',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Fragrant',
-                     'ru' => 'Ароматный',
+                     'ar' => 'عطر',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Nutritious',
-                     'ru' => 'Питательный',
+                     'ar' => 'مغذي',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Organic',
-                     'ru' => 'Органический',
+                     'ar' => 'أورجانيك',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Peculiar',
-                     'ru' => 'Своеобразный',
+                     'ar' => 'غريب',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' =>  [
                      'en' => 'Smooth',
-                     'ru' => 'Гладкий',
+                     'ar' => 'أملس',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Tempting',
-                     'ru' => 'Заманчивый',
+                     'ar' => 'مغري',
                  ], 'is_positive' => true, 'is_published' => true,],
-                 ['name' =>  'Bad', 'is_positive' => false, 'is_published' => true,],
+                 ['name' =>  [
+                     'en' => 'Bad',
+                     'ar' => 'سيء',
+                 ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Faulty',
-                     'ru' => 'Неисправный',
+                     'ar' => 'معيوب',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Uncomfortable',
-                     'ru' => 'Неудобный',
+                     'ar' => 'غير مريح',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Low quality',
-                     'ru' => 'Низкокачественный',
-                 ], 'Low quality', 'is_positive' => false, 'is_published' => true,],
+                     'ar' => 'منخفض الجودة',
+                 ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Outdated',
-                     'ru' => 'Устаревший',
+                     'ar' => 'قديم الطراز',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Impractical',
-                     'ru' => 'Непрактичный',
+                     'ar' => 'غير عملي',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Overrated',
-                     'ru' => 'Переоцененный',
+                     'ar' => 'مبالغ فيه',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Primitive',
-                     'ru' => 'Примитивный',
+                     'ar' => 'بدائي',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Useless',
-                     'ru' => 'Бесполезный',
+                     'ar' => 'عديم الفائدة',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Bitter',
-                     'ru' => 'Горький',
+                     'ar' => 'مرير',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Chewy',
-                     'ru' => 'Жевательный',
+                     'ar' => 'صعب المضغ',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Disgusting',
-                     'ru' => 'Отвратительный',
+                     'ar' => 'مقرف',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Harmful',
-                     'ru' => 'Вредный',
+                     'ar' => 'ضار',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Horrible',
-                     'ru' => 'Ужасный',
+                     'ar' => 'مروع',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Tasteless',
-                     'ru' => 'Безвкусный',
+                     'ar' => 'عديم الطعم',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Terrible',
-                     'ru' => 'Старшный',
+                     'ar' => 'فظيع',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Unpleasant',
-                     'ru' => 'Неприятный',
+                     'ar' => 'غير لطيف',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Unusual',
-                     'ru' => 'Необычный',
+                     'ar' => 'غير معتاد',
                  ], 'is_positive' => false, 'is_published' => true,],
              ],
              'vocations' => [
                  ['name' => [
                      'en' => 'Alive',
-                     'ru' => 'Живой',
+                     'ar' => 'حية',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Attractive',
-                     'ru' => 'Привлекательный',
+                     'ar' => 'جذاب',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Beautiful',
-                     'ru' => 'Красивый',
+                     'ar' => 'جميل',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Calm',
-                     'ru' => 'Спокойный',
+                     'ar' => 'هادئ',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Comfortable',
-                     'ru' => 'Комфортный',
+                     'ar' => 'شديد الإزدحام',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Enchanting',
-                     'ru' => 'Очаровательный',
+                     'ar' => 'ساحر',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Exciting',
-                     'ru' => 'Захватывающий',
+                     'ar' => 'مثير',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Exotic',
-                     'ru' => 'Экзотический',
+                     'ar' => 'عجيب',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Fascinating',
-                     'ru' => 'Очаровательный',
+                     'ar' => 'مدهش',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Friendly',
-                     'ru' => 'Дружелюбный',
+                     'ar' => 'كئيب',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Fun',
-                     'ru' => 'Веселый',
+                     'ar' => 'مرح',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Homey',
-                     'ru' => 'Домашний',
+                     'ar' => 'لطيف',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Inexpensive',
-                     'ru' => 'Недорогой',
+                     'ar' => 'غير مكلف',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Interesting',
-                     'ru' => 'Интересный',
+                     'ar' => 'ممتع',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Lively',
-                     'ru' => 'Живой',
+                     'ar' => 'مفعم بالحياة',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Peaceful',
-                     'ru' => 'Мирный',
+                     'ar' => 'سلمي',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Picturesque',
-                     'ru' => 'Живописный',
+                     'ar' => 'رائع',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Unspoiled',
-                     'ru' => 'Неиспорченный',
+                     'ar' => 'غير ملوث',
                  ], 'is_positive' => true, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Bleak',
-                     'ru' => 'Мрачный',
+                     'ar' => 'كئيب',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Boring',
-                     'ru' => 'Скучный',
+                     'ar' => 'ممل',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Bustling',
-                     'ru' => 'Шумный',
+                     'ar' => 'صخب',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Creepy',
-                     'ru' => 'Жуткий',
+                     'ar' => 'مخيف',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Crowded',
-                     'ru' => 'Переполненный',
+                     'ar' => 'مزدحم',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Dangerous',
-                     'ru' => 'Опасный',
+                     'ar' => 'خطير',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Desert',
-                     'ru' => 'Пустынный',
+                     'ar' => 'مهجور',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Desolate',
-                     'ru' => 'Заброшенный',
+                     'ar' => 'مقفر',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Dirty',
-                     'ru' => 'Неприличный',
+                     'ar' => 'متسخ',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Dull',
-                     'ru' => 'Нудный',
+                     'ar' => 'متبلد',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Hectic',
-                     'ru' => 'Суматошный',
+                     'ar' => 'عصيب',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Horrifying',
-                     'ru' => 'Шокирующий',
+                     'ar' => 'مرعب',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Nightmarish',
-                     'ru' => 'Кошмарный',
+                     'ar' => 'مفزع',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Overcrowded',
-                     'ru' => 'Переполненный',
+                     'ar' => 'شديد الإزدحام',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Polluted',
-                     'ru' => 'Грязный',
+                     'ar' => 'ملوث',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Pricey',
-                     'ru' => 'Дорогой',
+                     'ar' => 'مكلف',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Stormy',
-                     'ru' => 'Буйный',
+                     'ar' => 'عاصف',
                  ], 'is_positive' => false, 'is_published' => true,],
                  ['name' => [
                      'en' => 'Terrible',
-                     'ru' => 'Ужасный',
+                     'ar' => 'فظيع',
                  ], 'is_positive' => false, 'is_published' => true,],
              ]
          ];

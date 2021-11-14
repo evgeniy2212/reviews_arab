@@ -15,11 +15,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Christmas',
-                    'ru' => 'Рождество'
+                    'ar' => 'Рождество'
                 ],
                 'name' => [
                     'en' => 'Christmas',
-                    'ru' => 'Рождество'
+                    'ar' => 'Рождество'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Christmas'),
                 'is_published' => true,
@@ -27,11 +27,11 @@ class UserImportantDateTypeSeeder extends Seeder
 //            [
 //                'title' => [
 //                    'en' => 'Columbus Day',
-//                    'ru' => 'Columbus Day'
+//                    'ar' => 'Columbus Day'
 //                ],
 //                'name' => [
 //                    'en' => 'Columbus Day',
-//                    'ru' => 'Columbus Day'
+//                    'ar' => 'Columbus Day'
 //                ],
 //                'slug' => \Illuminate\Support\Str::slug('Columbus Day'),
 //                'is_published' => false,
@@ -39,11 +39,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Easter',
-                    'ru' => 'Пасха'
+                    'ar' => 'Пасха'
                 ],
                 'name' => [
                     'en' => 'Easter',
-                    'ru' => 'Пасха'
+                    'ar' => 'Пасха'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Easter'),
                 'is_published' => true,
@@ -51,11 +51,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Engagements',
-                    'ru' => 'Помолвка'
+                    'ar' => 'Помолвка'
                 ],
                 'name' => [
                     'en' => 'Engagements',
-                    'ru' => 'Помолвка'
+                    'ar' => 'Помолвка'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Engagements'),
                 'is_published' => true,
@@ -63,11 +63,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Father`s Day',
-                    'ru' => 'День отца'
+                    'ar' => 'День отца'
                 ],
                 'name' => [
                     'en' => 'Father`s Day',
-                    'ru' => 'День отца'
+                    'ar' => 'День отца'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Father`s Day'),
                 'is_published' => true,
@@ -75,11 +75,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Good Friday',
-                    'ru' => 'Хорошей пятницы'
+                    'ar' => 'Хорошей пятницы'
                 ],
                 'name' => [
                     'en' => 'Good Friday',
-                    'ru' => 'Хорошей пятницы'
+                    'ar' => 'Хорошей пятницы'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Good Friday'),
                 'is_published' => true,
@@ -87,11 +87,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Graduation',
-                    'ru' => 'Выпускной'
+                    'ar' => 'Выпускной'
                 ],
                 'name' => [
                     'en' => 'Graduation',
-                    'ru' => 'Выпускной'
+                    'ar' => 'Выпускной'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Graduation'),
                 'is_published' => true,
@@ -99,11 +99,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Happy anniversary',
-                    'ru' => 'С годовщиной'
+                    'ar' => 'С годовщиной'
                 ],
                 'name' => [
                     'en' => 'Happy anniversary',
-                    'ru' => 'С годовщиной'
+                    'ar' => 'С годовщиной'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Happy anniversary'),
                 'is_published' => true,
@@ -111,11 +111,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Happy birthday',
-                    'ru' => 'День рождения'
+                    'ar' => 'День рождения'
                 ],'',
                 'name' => [
                     'en' => 'Happy birthday',
-                    'ru' => 'День рождения'
+                    'ar' => 'День рождения'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Happy birthday'),
                 'is_published' => true,
@@ -123,11 +123,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Independence Day',
-                    'ru' => 'День независимости'
+                    'ar' => 'День независимости'
                 ],
                 'name' => [
                     'en' => 'Independence Day',
-                    'ru' => 'День независимости'
+                    'ar' => 'День независимости'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Independence Day'),
                 'is_published' => true,
@@ -135,11 +135,11 @@ class UserImportantDateTypeSeeder extends Seeder
 //            [
 //                'title' => [
 //                    'en' => 'Juneteenth',
-//                    'ru' => 'Juneteenth'
+//                    'ar' => 'Juneteenth'
 //                ],
 //                'name' => [
 //                    'en' => 'Juneteenth',
-//                    'ru' => 'Juneteenth'
+//                    'ar' => 'Juneteenth'
 //                ],
 //                'slug' => \Illuminate\Support\Str::slug('Juneteenth'),
 //                'is_published' => false,
@@ -147,11 +147,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Labor Day',
-                    'ru' => 'День благодарения'
+                    'ar' => 'День благодарения'
                 ],
                 'name' => [
                     'en' => 'Labor Day',
-                    'ru' => 'День благодарения'
+                    'ar' => 'День благодарения'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Labor Day'),
                 'is_published' => true,
@@ -159,11 +159,11 @@ class UserImportantDateTypeSeeder extends Seeder
 //            [
 //                'title' => [
 //                    'en' => 'Martin Luther King Jr. Day',
-//                    'ru' => 'Martin Luther King Jr. Day'
+//                    'ar' => 'Martin Luther King Jr. Day'
 //                ],
 //                'name' => [
 //                    'en' => 'Martin Luther King Jr. Day',
-//                    'ru' => 'Martin Luther King Jr. Day'
+//                    'ar' => 'Martin Luther King Jr. Day'
 //                ],
 //                'slug' => \Illuminate\Support\Str::slug('Martin Luther King Jr. Day'),
 //                'is_published' => false,
@@ -171,11 +171,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Memorial Day',
-                    'ru' => 'День памяти'
+                    'ar' => 'День памяти'
                 ],
                 'name' => [
                     'en' => 'Memorial Day',
-                    'ru' => 'День памяти'
+                    'ar' => 'День памяти'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Memorial Day'),
                 'is_published' => false,
@@ -183,11 +183,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Mother`s Day',
-                    'ru' => 'День матери'
+                    'ar' => 'День матери'
                 ],
                 'name' => [
                     'en' => 'Mother`s Day',
-                    'ru' => 'День матери'
+                    'ar' => 'День матери'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Mother`s Day'),
                 'is_published' => true,
@@ -195,11 +195,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'New Business',
-                    'ru' => 'Новый бизнес'
+                    'ar' => 'Новый бизнес'
                 ],
                 'name' => [
                     'en' => 'New Business',
-                    'ru' => 'Новый бизнес'
+                    'ar' => 'Новый бизнес'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('New Business'),
                 'is_published' => true,
@@ -207,11 +207,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'New Year’s Day',
-                    'ru' => 'Новый год'
+                    'ar' => 'Новый год'
                 ],
                 'name' => [
                     'en' => 'New Year’s Day',
-                    'ru' => 'Новый Год'
+                    'ar' => 'Новый Год'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('New Year’s Day'),
                 'is_published' => true,
@@ -219,11 +219,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Newborn',
-                    'ru' => 'Рождение'
+                    'ar' => 'Рождение'
                 ],
                 'name' => [
                     'en' => 'Newborn',
-                    'ru' => 'Рождение'
+                    'ar' => 'Рождение'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Newborn'),
                 'is_published' => true,
@@ -231,11 +231,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Promotion',
-                    'ru' => 'Повышение'
+                    'ar' => 'Повышение'
                 ],
                 'name' => [
                     'en' => 'Promotion',
-                    'ru' => 'Повышение'
+                    'ar' => 'Повышение'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Promotion'),
                 'is_published' => true,
@@ -243,11 +243,11 @@ class UserImportantDateTypeSeeder extends Seeder
 //            [
 //                'title' => [
 //                    'en' => 'Thanksgiving',
-//                    'ru' => 'Thanksgiving'
+//                    'ar' => 'Thanksgiving'
 //                ],
 //                'name' => [
 //                    'en' => 'Thanksgiving',
-//                    'ru' => 'Thanksgiving'
+//                    'ar' => 'Thanksgiving'
 //                ],
 //                'slug' => \Illuminate\Support\Str::slug('Thanksgiving'),
 //                'is_published' => false,
@@ -255,11 +255,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Valentine’s Day',
-                    'ru' => 'День валентина'
+                    'ar' => 'День валентина'
                 ],
                 'name' => [
                     'en' => 'Valentine’s Day',
-                    'ru' => 'День Валентина'
+                    'ar' => 'День Валентина'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Valentine’s Day'),
                 'is_published' => true,
@@ -267,11 +267,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Veterans Day',
-                    'ru' => 'День ветеранов'
+                    'ar' => 'День ветеранов'
                 ],
                 'name' => [
                     'en' => 'Veterans Day',
-                    'ru' => 'День ветеранов'
+                    'ar' => 'День ветеранов'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Veterans Day'),
                 'is_published' => false,
@@ -279,11 +279,11 @@ class UserImportantDateTypeSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Wedding',
-                    'ru' => 'Свадьба'
+                    'ar' => 'Свадьба'
                 ],
                 'name' => [
                     'en' => 'Wedding',
-                    'ru' => 'Свадьба'
+                    'ar' => 'Свадьба'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Wedding'),
                 'is_published' => true,

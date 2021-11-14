@@ -43,7 +43,7 @@
                     data-country="{{ old('country') }}"
                     required>
                 <option disabled {{ empty($review) ? 'selected' : '' }}
-                        value="">{{ trans('service/index.select_item', ['item' => __('service/index.country')]) }}</option>
+                        value="">{!! \App\Services\DataService::getTranslate('service/index.select.country') !!}</option>
                 @foreach($countries as $id => $country)
                     <option value="{{ $id }}" {{ (!empty($review) && ($review->region->country->id == $id)) ? 'selected' : '' }}>{!! $country !!}</option>
                 @endforeach

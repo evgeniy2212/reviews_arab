@@ -19,221 +19,221 @@ class CategoryGroupByReviewSeeder extends Seeder
             'Convenience products' => [
                 'title' => [
                     'en' => 'Convenience products',
-                    'ru' => 'Удобные продукты'
+                    'ar' => 'منتجات استهلاكية'
                 ],
                 'categories' => [
                     'Alcohol' => [
                         'en' => 'Alcohol',
-                        'ru' => 'Алкоголь'
+                        'ar' => 'كحول'
                     ],
                     'Cigarettes' => [
                         'en' => 'Cigarettes',
-                        'ru' => 'Сигареты'
+                        'ar' => 'سجائر'
                     ],
                     'Fruit' => [
                         'en' => 'Fruit',
-                        'ru' => 'Фпукты'
+                        'ar' => 'فاكهة'
                     ],
                     'Most food items' => [
                         'en' => 'Most food items',
-                        'ru' => 'Продукты питания'
+                        'ar' => 'معظم المواد الغذائية'
                     ],
                     'Snack foods and candy bars' => [
                         'en' => 'Snack foods and candy bars',
-                        'ru' => 'Снэки и сладости'
+                        'ar' => 'وجبات خفيفة وحلويات'
                     ],
                     'Soft drinks' => [
                         'en' => 'Soft drinks',
-                        'ru' => 'Напитки'
+                        'ar' => 'مشروبات غازية'
                     ],
                     'Vegetables' => [
                         'en' => 'Vegetables',
-                        'ru' => 'Овощи'
+                        'ar' => 'خضروات'
                     ],
                     'Other' => [
                         'en' => 'Other',
-                        'ru' => 'Другое'
+                        'ar' => 'أخرى'
                     ]
                 ]
             ],
             'Shopping products' => [
                 'title' => [
                     'en' => 'Shopping products',
-                    'ru' => 'Товары'
+                    'ar' => 'منتجات تسوق'
                 ],
                 'categories' => [
                     'Cameras' => [
                         'en' => 'Cameras',
-                        'ru' => 'Камеры'
+                        'ar' => 'كاميرات'
                     ],
                     'Camping equipment' => [
                         'en' => 'Camping equipment',
-                        'ru' => 'Снаряжение для кэмпинга'
+                        'ar' => 'كاميرات'
                     ],
                     'Clothing' => [
                         'en' => 'Clothing',
-                        'ru' => 'Вещи'
+                        'ar' => 'ملابس'
                     ],
                     'Electric Car' => [
                         'en' => 'Electric Car',
-                        'ru' => 'Електрические машины'
+                        'ar' => 'سيارة كهربائية'
                     ],
                     'Electronics' => [
                         'en' => 'Electronics',
-                        'ru' => 'Електроника'
+                        'ar' => 'إلكترونيات'
                     ],
                     'Furniture' => [
                         'en' => 'Furniture',
-                        'ru' => 'Фурнитура'
+                        'ar' => 'أثاث'
                     ],
                     'Golf equipment' => [
                         'en' => 'Golf equipment',
-                        'ru' => 'Снаряжение для гольфа'
+                        'ar' => 'معدات الجولف'
                     ],
                     'Jewelry' => [
                         'en' => 'Jewelry',
-                        'ru' => 'Ювелирные изделия'
+                        'ar' => 'مجوهرات'
                     ],
                     'Kitchen equipment' => [
                         'en' => 'Kitchen equipment',
-                        'ru' => 'Кухонная утворь'
+                        'ar' => 'أدوات مطبخ'
                     ],
                     'Luggage' => [
                         'en' => 'Luggage',
-                        'ru' => 'Багаж'
+                        'ar' => 'حقائب سفر'
                     ],
                     'Mobile phones' => [
                         'en' => 'Mobile phones',
-                        'ru' => 'Мобильные телефоны'
+                        'ar' => 'هواتف محمولة'
                     ],
                     'Perfumes and cosmetics' => [
                         'en' => 'Perfumes and cosmetics',
-                        'ru' => 'Парфюмерия и косметика'
+                        'ar' => 'عطور ومستحضرات تجميل'
                     ],
                     'Plants' => [
                         'en' => 'Plants',
-                        'ru' => 'Растения'
+                        'ar' => 'نباتات'
                     ],
                     'Sporting equipment' => [
                         'en' => 'Sporting equipment',
-                        'ru' => 'Спортивная экипировка'
+                        'ar' => 'معدات رياضية'
                     ],
                     'Tools' => [
                         'en' => 'Tools',
-                        'ru' => 'Инструменты'
+                        'ar' => 'أدوات'
                     ],
                     'Toys' => [
                         'en' => 'Toys',
-                        'ru' => 'Игрушки'
+                        'ar' => 'ألعاب اطفال'
                     ],
                     'Washing machines and dishwashers' => [
                         'en' => 'Washing machines and dishwashers',
-                        'ru' => 'Стиральные машины'
+                        'ar' => 'غسالات وغسالات أطباق'
                     ],
                     'Other' => [
                         'en' => 'Other',
-                        'ru' => 'Другое'
+                        'ar' => 'وجبات خفيفة وحلويات'
                     ]
                 ],
             ],
             'Specialty products' => [
                 'title' => [
                     'en' => 'Specialty products',
-                    'ru' => 'Специальные товары'
+                    'ar' => 'منتجات متخصصة'
                 ],
                 'categories' => [
                     'Book' => [
                         'en' => 'Book',
-                        'ru' => 'Кгини'
+                        'ar' => 'كتب'
                     ],
                     'Cleaning & Detergents products' => [
                         'en' => 'Cleaning & Detergents products',
-                        'ru' => 'Моющие средства'
+                        'ar' => 'مواد تنظيف'
                     ],
                     'Flowers' => [
                         'en' => 'Flowers',
-                        'ru' => 'Цветы'
+                        'ar' => 'زهور'
                     ],
                     'Medicines and vitamins' => [
                         'en' => 'Medicines and vitamins',
-                        'ru' => 'Медикаменты и витамины'
+                        'ar' => ' أدوية وفيتامينات'
                     ],
                     'Newspapers and magazines' => [
                         'en' => 'Newspapers and magazines',
-                        'ru' => 'Газеты и журналы'
+                        'ar' => 'جرائد ومجلات'
                     ],
                     'Pet food' => [
                         'en' => 'Pet food',
-                        'ru' => 'Корм для животных '
+                        'ar' => 'طعام حيوانات أليفة'
                     ],
                     'Solar Panel & Wind System' => [
                         'en' => 'Solar Panel & Wind System',
-                        'ru' => 'Солнечные батареи и ветряки'
+                        'ar' => 'أنظمة ألواح الطاقة الشمسية والرياح'
                     ],
                     'Toothpaste, soap, and shampoo' => [
                         'en' => 'Toothpaste, soap, and shampoo',
-                        'ru' => 'Зубные пасты, мыло, шампунь'
+                        'ar' => 'معجون أسنان وصابون وشامبو'
                     ],
                     'TV Chanel' => [
                         'en' => 'TV Chanel',
-                        'ru' => 'Телепрограммы'
+                        'ar' => 'قنوات تلفزيونية'
                     ],
                     'Virtual Game' => [
                         'en' => 'Virtual Game',
-                        'ru' => 'Виртуальные игры'
+                        'ar' => 'لعبة افتراضية'
                     ],
                     'Other' => [
                         'en' => 'Other',
-                        'ru' => 'Другое'
+                        'ar' => 'أخرى'
                     ]
                 ],
             ],
             'City' => [
                 'title' => [
                     'en' => 'City',
-                    'ru' => 'Город'
+                    'ar' => 'رحلة بحرية'
                 ],
             ],
             'Cruise' => [
                 'title' => [
                     'en' => 'Cruise',
-                    'ru' => 'Круиз'
+                    'ar' => 'رحلة بحرية'
                 ],
             ],
             'Resort' => [
                 'title' => [
                     'en' => 'Resort',
-                    'ru' => 'Курорт'
+                    'ar' => 'منتجع'
                 ],
             ],
             'Hotel' => [
                 'title' => [
                     'en' => 'Hotel',
-                    'ru' => 'Отель'
+                    'ar' => 'فندق'
                 ],
             ],
             'National parks' => [
                 'title' => [
                     'en' => 'National parks',
-                    'ru' => 'Национальный парк'
+                    'ar' => 'حديقة وطنية'
                 ],
             ],
             'State parks' => [
                 'title' => [
                     'en' => 'State parks',
-                    'ru' => 'Региональный парк'
+                    'ar' => 'حديقة الولاية'
                 ],
             ],
             'Beaches' => [
                 'title' => [
                     'en' => 'Beaches',
-                    'ru' => 'Пляжи'
+                    'ar' => 'شواطئ'
                 ],
             ],
             'Other' => [
                 'title' => [
                     'en' => 'Other',
-                    'ru' => 'ДРУГОЕ'
+                    'ar' => 'أخرى'
                 ],
             ],
         ];

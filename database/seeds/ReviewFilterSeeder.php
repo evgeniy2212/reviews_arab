@@ -16,14 +16,14 @@ class ReviewFilterSeeder extends Seeder
             [
                 'name' => [
                     'en' => 'filter by date',
-                    'ru' => 'Фильтр по дате',
+                    'ar' => 'شكوى',
                 ],
                 'slug' => \Illuminate\Support\Str::slug('filter by date'),
             ],
             [
                 'name' => [
                     'en' => 'sort by',
-                    'ru' => 'Сортировать по',
+                    'ar' => 'النجوم',
                 ],
                 'slug' => \Illuminate\Support\Str::slug('sort by'),
             ],

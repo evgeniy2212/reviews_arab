@@ -32,10 +32,10 @@ class DataService {
             : $attribute;
     }
 
-    public static function getLangByKey(string $attribute, array $items = [])
+    public static function getTranslate(string $attribute, array $items = [])
     {
-        return Lang::has("service/index." . mb_strtolower($attribute))
-            ? __("service/index." . mb_strtolower($attribute), $items)
+        return Lang::has(mb_strtolower($attribute))
+            ? __(mb_strtolower($attribute), $items)
             : $attribute;
     }
 }

@@ -5,7 +5,7 @@
         <div class="adminFilters">
             <div class="adminFilterItem">
                 <div>
-                    {{ __('service/index.select_item', ['item' => __('service/index.year')]) }}
+                    {!! \App\Services\DataService::getTranslate('service/index.select.year') !!}
                 </div>
                 <div>
                     <select class="select admin-data-filter-select"

@@ -1,10 +1,10 @@
 @component('mail::message')
-Hi {{ $name }},
+{{ $name }} مرحبًا,
 
-Your account at otzov1.ru has been updated. If you did not authorize this change, please contact info@otzov1.ru.
+تم تحديث حسابك على موقع .Reviews4arab إذا لم تقم بهذا التحديث، فيرجى التواصل على info@reviews4arab.com
 
-Thank you for your reviews!
+شكرًا على تقييماتك!
 
-Regards,<br>
-—The otzov1.ru Team
+<br>مع تحياتنا،
+{{ config('app.name') }}- فريق
 @endcomponent

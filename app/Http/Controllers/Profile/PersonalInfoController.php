@@ -40,7 +40,9 @@ class PersonalInfoController extends Controller
         $result = $profile->update($personal_info);
 
         if($result){
-            return redirect()->route('profile-info')->withSuccess(['Your profile info was changed.']);
+            return redirect()->route('profile-info')->withSuccess([
+                \App\Services\DataService::getTranslate('service/message.your_profile_changed')
+            ]);
         } else {
             return back()->withErrors(['msg' => 'Updating ERROR!'])->withInput();
         }

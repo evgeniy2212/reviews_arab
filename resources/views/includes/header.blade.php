@@ -174,7 +174,7 @@
                                 @foreach($reviewCategories as $review_category)
                                     <option {{ (isset($search_category) && $search_category == $review_category->slug) ? 'selected' : '' }}
                                             value="{{ $review_category->slug }}">
-                                        @lang(trans('service/index.review_naming', ['name' => $review_category->title]))
+                                        {!! \App\Services\DataService::getTranslate('service/index.review_naming.' . $review_category->title) !!}
                                     </option>
                                 @endforeach
                             </select>
@@ -240,7 +240,7 @@
                     <li @if(str_contains(url()->current(), $review_category->slug) || str_contains(url()->full(), 'category=' . $review_category->slug))
                         class="menu-active"@endif>
                         <a href="{{ route('reviews', $review_category->slug) }}">
-                            @lang(trans('service/index.review_naming', ['name' => $review_category->title]))
+                            {!! \App\Services\DataService::getTranslate('service/index.review_naming.' . trim($review_category->title)) !!}
                         </a>
                     </li>
                 @endforeach

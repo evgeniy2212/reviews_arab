@@ -16,7 +16,7 @@ class BannerCategoriesSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'CONGRATULATION',
-                    'ru' => 'ПОЗДРАВЛЕНИЯ'
+                    'ar' => 'الجميع'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('congratulation'),
                 'is_published' => true,
@@ -24,7 +24,7 @@ class BannerCategoriesSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'THANK YOU NOTE',
-                    'ru' => 'БЛАГОДАРСТВЕННАЯ ЗАПИСКА'
+                    'ar' => 'شكرا لك ملاحظة'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('thank you note'),
                 'is_published' => true,
@@ -32,7 +32,7 @@ class BannerCategoriesSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'SELLING',
-                    'ru' => 'ПРОДАЖА'
+                    'ar' => 'يبيع'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('selling'),
                 'is_published' => true,
@@ -40,7 +40,7 @@ class BannerCategoriesSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'BUSINESS SERVICE AD',
-                    'ru' => 'БИЗНЕС ОБСЛУЖИВАНИЕ'
+                    'ar' => 'إعلان خدمة الأعمال'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('business service ad'),
                 'is_published' => true,
@@ -48,7 +48,7 @@ class BannerCategoriesSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'REVIEW',
-                    'ru' => 'ОТЗЫВЫ'
+                    'ar' => 'المراجعات'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('review'),
                 'is_published' => true,
@@ -56,7 +56,7 @@ class BannerCategoriesSeeder extends Seeder
             [
                 'title' => [
                     'en' => 'OTHER',
-                    'ru' => 'ДРУГОЕ'
+                    'ar' => 'وجبات خفيفة وحلويات'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('other'),
                 'is_published' => true,

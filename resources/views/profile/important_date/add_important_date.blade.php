@@ -17,7 +17,9 @@
                 id="importantDateType"
                 name="important_date_type_id"
                 required>
-            <option disabled selected value="">@lang(trans('service/index.select_item', ['item' => __('service/index.category')]))</option>
+            <option disabled selected value="">
+                {!! \App\Services\DataService::getTranslate('service/index.select.category') !!}
+            </option>
             @foreach($importantDateTypes as $importantDateType)
                 <option value="{{ $importantDateType->id }}">{!! $importantDateType->name !!}</option>
             @endforeach

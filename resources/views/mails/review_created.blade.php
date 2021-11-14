@@ -1,13 +1,13 @@
 @component('mail::message')
 
-Hello, {{ $name }}.
+.{{ $name }} مرحبا كيفر،
 
-Your review is now live at {{ config('app.name') }}
+{{ config('app.name') }}تقييمك منشور الآن على موقع
 
 @component('mail::button', ['url' => $url])
-    Your review
+    تقييمك
 @endcomponent
 
-Regards,<br>
-—The otzov1.ru Team
+<br>مع تحياتنا،
+{{ config('app.name') }}- فريق
 @endcomponent

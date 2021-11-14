@@ -37,7 +37,7 @@
                 <div class="review-content-place">
                     <div class="d-flex justify-content-center">
                         <span class="create-review-title">
-                            @lang(trans('service/index.create_review_title', ['title' => \Illuminate\Support\Str::upper(trim($reviewCategory->title, 's'))]))
+                            {!! \App\Services\DataService::getTranslate('service/index.create_review_title.' . trim($reviewCategory->title)) !!}
                         </span>
                     </div>
                     <div class="rating-container">

@@ -21,7 +21,9 @@
                             id="bannerCategory"
                             name="banner_category_id"
                             required>
-                        <option disabled selected value="">@lang(trans('service/index.select_item', ['item' => __('service/index.category')]))</option>
+                        <option disabled selected value="">
+                            {!! \App\Services\DataService::getTranslate('service/index.select.category') !!}
+                        </option>
                         @foreach($bannerCategories as $id => $category)
                             <option value="{{ $id }}">{!! $category !!}</option>
                         @endforeach

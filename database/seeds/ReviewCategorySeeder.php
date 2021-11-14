@@ -17,7 +17,7 @@ class ReviewCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Person',
-                    'ru' => 'Людях',
+                    'ar' => 'Person',
                 ],
                 'slug' => \Illuminate\Support\Str::slug('person'),
                 'is_published' => true,
@@ -26,7 +26,7 @@ class ReviewCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Company',
-                    'ru' => 'Компаниях',
+                    'ar' => 'Company',
                 ],
                 'slug' => \Illuminate\Support\Str::slug('company'),
                 'is_published' => true,
@@ -34,7 +34,7 @@ class ReviewCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Goods',
-                    'ru' => 'Товарах',
+                    'ar' => 'Goods',
                 ],
                 'slug' => \Illuminate\Support\Str::slug('goods'),
                 'is_published' => true,
@@ -42,7 +42,7 @@ class ReviewCategorySeeder extends Seeder
             [
                 'title' => [
                     'en' => 'Vacations',
-                    'ru' => 'Курортах',
+                    'ar' => 'Vacations',
                 ],
                 'slug' => \Illuminate\Support\Str::slug('vocations'),
                 'is_published' => true,

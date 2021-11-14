@@ -12,7 +12,7 @@
                     data-country="{{ old('congratulation_category_id') }}"
                     required>
                 <option disabled {{ empty($congratulation) ? 'selected' : '' }}
-                        value="">{{ trans('service/index.select_item', ['item' => __('service/index.category')]) }}</option>
+                        value="">{!! \App\Services\DataService::getTranslate('service/index.select.category') !!}</option>
                 @foreach($categories as $category)
                     <option value="{{ $category->id }}" {{ (!empty($congratulation) && ($congratulation->congratulation_category_id == $category->id)) ? 'selected' : '' }}>{!! $category->title !!}</option>
                 @endforeach

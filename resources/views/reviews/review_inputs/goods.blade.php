@@ -44,7 +44,9 @@
                     id="selectCategoryGood"
                     name="category_by_review_id"
                     required>
-                <option {{ empty($review) ? 'selected' : '' }} disabled value="">{{ trans('service/index.select_item', ['item' => __('service/index.country')]) }}</option>
+                <option {{ empty($review) ? 'selected' : '' }} disabled value="">
+                    {!! \App\Services\DataService::getTranslate('service/index.select.country') !!}
+                </option>
                 @foreach($categories as $id => $category)
                     <option value="{{ $id }}" {{ (!empty($review) && ($review->getCategoryByReviewId() == $id)) ? 'selected' : '' }}>{!! $category !!}</option>
                 @endforeach
@@ -61,7 +63,7 @@
                     name="review_group_id"
                     disabled
                     required>
-                <option disabled selected value="{{ empty($review) ? '' : $review->category_group->id }}">{{ empty($review) ? __(trans('service/index.select_item', ['item' => __('service/index.category')])) : $review->category_group->name }}</option>
+                <option disabled selected value="{{ empty($review) ? '' : $review->category_group->id }}">{{ empty($review) ? \App\Services\DataService::getTranslate('service/index.select.country') : $review->category_group->name }}</option>
                 <option value="1">@lang('service/index.person')</option>
                 <option value="2">@lang('service/index.company')</option>
                 <option value="3">@lang('service/index.goods')</option>

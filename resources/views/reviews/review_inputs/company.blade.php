@@ -45,7 +45,9 @@
                     name="country"
                     data-country="{{ old('country') }}"
                     required>
-                <option disabled {{ empty($review) ? 'selected' : '' }} value="">@lang(trans('service/index.select_item', ['item' => __('service/index.country')]))</option>
+                <option disabled {{ empty($review) ? 'selected' : '' }} value="">
+                    {!! \App\Services\DataService::getTranslate('service/index.select.country') !!}
+                </option>
                 @foreach($countries as $id => $country)
                     <option value="{{ $id }}" {{ (!empty($review) && ($review->region->country_id == $id)) ? 'selected' : '' }}>{!! $country !!}</option>
                 @endforeach

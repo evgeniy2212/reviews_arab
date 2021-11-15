@@ -59,7 +59,7 @@
                     </div>
                     <div class="d-sm-flex justify-content-sm-center">
                         <div class="col-sm-6">
-                            {!! NoCaptcha::renderJs('en') !!}
+                            {!! NoCaptcha::renderJs(app('laravellocalization')->getCurrentLocale()) !!}
                             {!! NoCaptcha::display(['data-size' => 'normal']) !!}
                         </div>
                     </div>

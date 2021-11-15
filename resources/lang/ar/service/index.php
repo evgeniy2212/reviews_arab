@@ -17,6 +17,7 @@ return [
     'Reviews' => 'المراجعات',
     'review' => 'إعادة النظر',
     'Congratulations' => 'التهاني',
+    'confirmation' => 'التأكيد',
     'alphabet' => 'الجميع',
     'rating' => 'تصنيف حسب',
     'filter-by-date' => 'تصفية حسب التاريخ',

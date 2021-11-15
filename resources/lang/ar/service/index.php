@@ -186,4 +186,11 @@ return [
     'filter.unholded' => 'لا تحجب',
     'filter.published' => 'نشرت',
     'filter.unpublished' => 'غير منشور',
+    'two_factor_code' => 'كود العامل الخاص بك ',
+    'check' => 'التحقق من',
+    'valid_10_min' => 'الصلاحية: 10 دقيقة',
+    'hello_mail' => 'أهلا!',
+    'inform_you' => ' يبلغك بإنشاء المراجعة في ',
+    'regards' => 'يعتبر،',
+    'whoops' => 'عذرًا!',
 ];

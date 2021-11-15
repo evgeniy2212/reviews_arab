@@ -41,9 +41,10 @@ class TwoFactorCode extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('Your two factor code: ' . $notifiable->two_factor_code)
-                    ->action('Check ', route('verify.index'))
-                    ->line('Validity: 10 min');
+                    ->greeting(__('service/index.hello_mail'))
+                    ->line(__('service/index.two_factor_code') . $notifiable->two_factor_code)
+                    ->action(__('service/index.check'), route('verify.index'))
+                    ->line(__('service/index.valid_10_min'));
     }
 
     /**

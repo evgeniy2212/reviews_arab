@@ -75,7 +75,7 @@ return [
     'review_negative_character' => 'سمات الشخصية السلبية',
     'review_nickname' => 'اللقب',
     'default_nickname' => 'مستخدم',
-    'select_item' => 'Выберите :item',
+    'select_item' => 'السنة :item',
     'select.country' => 'اختر الدولة',
     'select.region' => 'اختر المنطقة',
     'select.category' => 'اختر الفئة',

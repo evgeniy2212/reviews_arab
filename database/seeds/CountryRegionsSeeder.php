@@ -14,118 +14,6 @@ class CountryRegionsSeeder extends Seeder
     public function run()
     {
         $countries = [
-//            'USA' => [
-//                'name' => [
-//                    'en' => 'USA',
-//                    'ar' => 'США'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'State',
-//                    'ar' => 'Штат'
-//                ],
-//                'regions' => [
-//                    'Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming',
-//                ],
-//                'is_enable' => false
-//            ],
-//            'Australia' => [
-//                'name' => [
-//                    'en' => 'Australia',
-//                    'ar' => 'Австралия'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'State',
-//                    'ar' => 'Штат'
-//                ],
-//                'regions' => [
-//                    'Queensland','New South Wales','Australian Capital Territory','Victoria','South Australia','Western Australia','Tasmania','Northern Territory',
-//                ],
-//                'is_enable' => false
-//            ],
-//            'United Kingdom' => [
-//                'name' => [
-//                    'en' => 'United Kingdom',
-//                    'ar' => 'Великая Британия'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'Region',
-//                    'ar' => 'Регион'
-//                ],
-//                'regions' => [
-//                    'South East','London','North West','East of England','West Midlands','South West','Yorkshire and the Humber','East Midlands','North East',
-//                ],
-//                'is_enable' => false
-//            ],
-//            'India' => [
-//                'name' => [
-//                    'en' => 'India',
-//                    'ar' => 'Индия'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'State',
-//                    'ar' => 'Штат'
-//                ],
-//                'regions' => [
-//                    'Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal',
-//                ],
-//                'is_enable' => false
-//            ],
-//            'Canada' => [
-//                'name' => [
-//                    'en' => 'Canada',
-//                    'ar' => 'Канада'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'Province',
-//                    'ar' => 'Провинция'
-//                ],
-//                'regions' => [
-//                    'Alberta','British Columbia','Manitoba','New Brunswick','Newfoundland and Labrador','Northwest Territories','Nova Scotia','Nunavut','Ontario','Prince Edward Island','Quebec','Saskatchewan',
-//                ],
-//                'is_enable' => false
-//            ],
-//            'China' => [
-//                'name' => [
-//                    'en' => 'China',
-//                    'ar' => 'Китай'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'Province',
-//                    'ar' => 'Провинция'
-//                ],
-//                'regions' => [
-//                    'Anhui','Fujian','Gansu','Guangdong','Guizhou','Hainan','Hebei','Heilongjiang','Henan','Hubei','Hunan','Jiangsu','Jiangxi','Jilin','Liaoning','Qinghai','Shaanxi','Shandong','Shanxi','Sichuan','Yunnan','Zhejiang','Guangxi','Inner Mongolia','Ningxia ','Xinjiang ','Tibet ','Beijing','Chongqing','Shanghai','Tianjin','Hong Kong','Macau',
-//                ],
-//                'is_enable' => false
-//            ],
-//            'Pakistan' => [
-//                'name' => [
-//                    'en' => 'Pakistan',
-//                    'ar' => 'Пакистан'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'Province',
-//                    'ar' => 'Провинция'
-//                ],
-//                'regions' => [
-//                    'Sindh','Punjab','Khyber Pakhtunkhwa','Islamabad Capital Territory','Gilgit-Baltistan','Balochistan','Azad Kashmir',
-//                ],
-//                'is_enable' => false
-//            ],
-//            'South Africa' => [
-//                'name' => [
-//                    'en' => 'South Africa',
-//                    'ar' => 'ЮАР'
-//                ],
-//                'region_naming' => [
-//                    'en' => 'Province',
-//                    'ar' => 'Провинция'
-//                ],
-//                'regions' => [
-//                    'Eastern Cape','Free State','Gauteng','KwaZulu-Natal','Limpopo','Mpumalanga','North West','Northern Cape','Western Cape',
-//                ],
-//                'is_enable' => false
-//            ],
             'المملكة العربية السعودية' => [
                 'name' => [
                     'en' => 'Saudi Arabia',
@@ -136,14 +24,267 @@ class CountryRegionsSeeder extends Seeder
                     'ar' => 'مقاطعة'
                 ],
                 'regions' => [
-                    'الباحة','الجوف','القصيم','عسير','المنطقة الشرقية','منطقة حائل','جيزان','المدينة المنورة','مكه','نجران','منطقة الحدود الشمالية','الرياض','تبوك'
+                    'الرياض', 'مكه', 'المدينة المنورة', 'قاسم', 'الشرقية', 'عسير', 'تبوك', 'وابل', 'الحدود الشمالية', 'جيزان', 'نجران', 'الباحة', 'الجوف'
                 ],
                 'is_enable' => true
             ],
+            'الجزائر' => [
+                'name' => [
+                    'en' => 'Algeria',
+                    'ar' => 'الجزائر'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'أدرار', 'الشلف', 'الأغواط', 'أم البواقي', 'باتنة', 'بجاية', 'بسكرة', 'بشار', 'البليدة', 'البويرة', 'تمنراست', 'تبسة', 'تلمسان', 'تيارت', 'تيزي وزو', 'الجزائر', 'الجلفة', 'جيجل', 'سطيف', 'سعيدة', 'سكيكدة', 'سيدي بلعباس', 'عنابة', 'قالمة', 'قسنطينة', 'المدية', 'مستغانم', 'المسيلة', 'معسكر', 'ورقلة', 'وهران', 'البيض', 'اليزي', 'برج  بوعريريج', 'بومرداس', 'الطارف', 'تندوف', 'تسمسيلت', 'الوادي', 'خنشلة', 'سو  أهراس', 'تيبازة', 'ميلة', '"عين الدفلى	"', 'النعامة', 'عين تموشنت', '"غرداية	"', 'غليزان', 'المغير', 'المنيعة', 'أولاد جلال', 'برج باجي  مختار', 'بني عباس', 'تيميمون', 'تقرت', 'جانت', 'عين صالح', 'عين قزّام'
+                ],
+                'is_enable' => true
+            ],
+            'البحرين' => [
+                'name' => [
+                    'en' => 'Bahrain',
+                    'ar' => 'البحرين'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'محافظة المنامة', 'محافظة المحرق', 'المحافظة الشّمالية', 'المحافظة الجنوبيّة'
+                ],
+                'is_enable' => true
+            ],
+            'مصر' => [
+                'name' => [
+                    'en' => 'Egypt',
+                    'ar' => 'مصر'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'الإسكندرية', 'أسيوط', 'أسوان', 'البحيرة', 'بني سويف', 'القاهرة', 'الدقهلية', 'دمياط', 'الفيوم', 'الغربية', 'الجيزة', 'حلوان', 'الإسماعيلية', 'كفر الشيخ', 'الأقصر', 'مرسى مطروح', 'المنيا', 'المنوفية', 'الوادي الجديد', 'شمال سيناء', 'بورسعيد', 'القليوبية', 'قنا', 'البحر الاحمر', 'الشرقية', 'سوهاج', 'جنوب سيناء', 'السويس', 'طنطا'
+                ],
+                'is_enable' => true
+            ],
+            'العراق' => [
+                'name' => [
+                    'en' => 'Iraq',
+                    'ar' => 'العراق'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'بغداد', 'البصره', 'العماره', 'الرمادي', 'الناصريه', 'تكريت', 'السماوه', 'كربلاء', 'الحله', 'الموصل', 'النجف', 'الديوانيه', 'بعقوبه', 'أربيل', 'الكوت', 'دهوك', 'كركوك', 'السليمانيه'
+                ],
+                'is_enable' => true
+            ],
+            'الأردن' => [
+                'name' => [
+                    'en' => 'Jordan',
+                    'ar' => 'الأردن'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'العاصمة', 'اربد', 'البلقاء', 'الكرك', 'معان', 'الزرقاء', 'المفرق', 'الطفيلة', 'مادبا', 'جرش', 'عجلون', 'العقبة'
+                ],
+                'is_enable' => true
+            ],
+            'اليمن' => [
+                'name' => [
+                    'en' => 'Yemen',
+                    'ar' => 'اليمن'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'عمران', 'محافظة البيضاء', 'الحديدة', 'أجوف', 'المحويت', 'أمانة العاصمة', 'ذمار', 'دعوى', 'أب', 'مأرب', 'محافظة ريمة', 'صعدة', 'صنعاء', 'تعز', 'عدن', 'أبين', 'محافظة الضالع', 'ماهر', 'حضرموت', 'أرخبيل سقطرى', 'الحج', 'شبوة'
+                ],
+                'is_enable' => true
+            ],
+            'دولة قطر' => [
+                'name' => [
+                    'en' => 'Qatar',
+                    'ar' => 'دولة قطر'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'الشمال', 'الخور', 'الشحانية', 'أم صلال', 'الضعاين', 'الدوحة', 'الريان', 'الوكرة'
+                ],
+                'is_enable' => true
+            ],
+            'الكويت' => [
+                'name' => [
+                    'en' => 'Kuwait',
+                    'ar' => 'الكويت'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'العاصمة', 'حولي', 'الأحمدي', 'الجهراء', 'الفروانية', 'مبارك الكبير'
+                ],
+                'is_enable' => true
+            ],
+            'لبنان' => [
+                'name' => [
+                    'en' => 'Lebanon',
+                    'ar' => 'لبنان'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'محافظة بيروت', 'عكار', 'جبل لبنان', 'بعلبك - الهرمل', 'البقاع', 'النبطية', 'شمال لبنان', 'جنوب لبنان'
+                ],
+                'is_enable' => true
+            ],
+            'ليبيا' => [
+                'name' => [
+                    'en' => 'Libya',
+                    'ar' => 'ليبيا'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'البيضاء', 'الخمس', 'أوباري', 'الزاوية', 'بنغازي', 'درنة', 'الجبل الغربي', 'مصراتة', 'سبها', 'طرابلس'
+                ],
+                'is_enable' => true
+            ],
+            'موريتانيا' => [
+                'name' => [
+                    'en' => 'Mauritania',
+                    'ar' => 'موريتانيا'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'أدرار', 'لعصابة', 'لبراكنة', 'داخلة نواذيبو', 'كوركول', 'غيديماغا', 'الحوض  الشرقي', 'الحوض الغربي', 'إينشيري', 'نواكشوط  الشمالية', 'نواكشوط الغربية', 'نواكشوط  الجنوبية', 'تكانت', 'تيرس زمور', 'الترارزه'
+                ],
+                'is_enable' => true
+            ],
+            'المغرب' => [
+                'name' => [
+                    'en' => 'Morocco',
+                    'ar' => 'المغرب'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'طنجة تطوان الحسيمة', 'لورينتال', 'فاس مكناس', 'الرباط - سلا - القنيطرة', 'بني ملال خنيفرة', 'الدار البيضاء سطات', 'مراكش آسفي', 'درعة تافيلالت', 'سوس ماسة', 'كلميم واد نون', 'العيون - الساقية الحمراء', 'الداخلة - واد الذهب'
+                ],
+                'is_enable' => true
+            ],
+            'الإمارات العربية المتحدة (الإمارات العربية المتحدة)' => [
+                'name' => [
+                    'en' => 'United Arab Emirates (UAE)',
+                    'ar' => 'الإمارات العربية المتحدة (الإمارات العربية المتحدة)'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'أبو ظبي', 'عجمان', 'دبي', 'الفجيرة', 'رأس  الخيمة', 'الشارقة', 'أم القيوين'
+                ],
+                'is_enable' => true
+            ],
+            'سلطنة عمان' => [
+                'name' => [
+                    'en' => 'Oman',
+                    'ar' => 'سلطنة عمان'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'منطقة الداخلية', 'منطقة الظاهرة', 'محافظة شمال الباطنة', 'محافظة جنوب الباطنة', 'محافظة البريمي', 'المنطقة الوسطى', 'محافظة شمال الشرقية', 'محافظة جنوب الشرقية', 'محافظة ظفار', 'محافظة مسقط', 'محافظة مسندم'
+                ],
+                'is_enable' => true
+            ],
+            'فلسطين' => [
+                'name' => [
+                    'en' => 'Palestine',
+                    'ar' => 'فلسطين'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'جنين', 'طوباس', 'طولكرم', 'نابلس', 'قلقيلية', 'سلفيت', 'رام الله والبيرة', 'أريحا', 'بيت المقدس', 'بيت لحم', 'الخليل'
+                ],
+                'is_enable' => true
+            ],
+            'السودان' => [
+                'name' => [
+                    'en' => 'Sudan',
+                    'ar' => 'السودان'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'ولاية خرطوم', 'ولاية شمال كردفان', 'ولاية الشمالية', 'ولاية كسّلا', 'ولاية النيل الأزرق', 'ولاية شمال دارفور', 'ولاية جنوب دارفور', 'ولاية جنوب كردفان', 'ولاية الجزيرة', 'ولاية النيل الأبيض', 'ولاية نهر النيل', 'ولاية البحر الأحمر', 'ولاية القضارف', 'ولاية سنّار', 'ولاية غرب دارفور', 'ولاية وسط دارفور', 'ولاية شرق دارفور', 'ولاية غرب كردفان'
+                ],
+                'is_enable' => true
+            ],
+            'سوريا' => [
+                'name' => [
+                    'en' => 'Syria',
+                    'ar' => 'سوريا'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'حلب', 'الرقة', 'السويداء', 'دمشق', 'درعا', 'دير الزور', 'حماه', 'الحسكة', 'حمص', 'إدلب', 'اللاذقية', 'القنيطرة', 'ريف دمشق', 'طرطوس'
+                ],
+                'is_enable' => true
+            ],
+            'تونس' => [
+                'name' => [
+                    'en' => 'Tunisia',
+                    'ar' => 'تونس'
+                ],
+                'region_naming' => [
+                    'en' => 'Province',
+                    'ar' => 'مقاطعة'
+                ],
+                'regions' => [
+                    'أريانة', 'باجة', 'بن عروس', 'بنزرت', 'قابس', 'قفصة', 'جندوبة', 'القيروان', 'القصرين', 'قبلي', 'الكاف', 'المهدية', 'منوبة', 'مدنين', 'المنستير', 'نابل', 'صفاقس', 'سيدي بوزيد', 'سليانة', 'سوسة', 'توزر', 'تطاوين', 'تونس', 'زغوان'
+                ],
+                'is_enable' => true
+            ],
+
 //            'Afghanistan' => [
 //                'is_enable' => false
 //            ],
-            'أفغانستان' =>  ['is_enable' => true] , 'ألبانيا' =>  ['is_enable' => true] , 'الجزائر' =>  ['is_enable' => true] , 'أندورا' =>  ['is_enable' => true] , 'أنغولا' =>  ['is_enable' => true] , 'أنتيغوا وبربودا' =>  ['is_enable' => true] , 'الأرجنتين' =>  ['is_enable' => true] , 'أرمينيا' =>  ['is_enable' => true] , 'أستراليا' =>  ['is_enable' => true] , 'النمسا' =>  ['is_enable' => true] , 'أذربيجان' =>  ['is_enable' => true] , 'جزر البهاما' =>  ['is_enable' => true] , 'البحرين' =>  ['is_enable' => true] , 'بنغلاديش' =>  ['is_enable' => true] , 'بربادوس' =>  ['is_enable' => true] , 'بيلاروسيا' =>  ['is_enable' => true] , 'بلجيكا' =>  ['is_enable' => true] , 'بليز' =>  ['is_enable' => true] , 'بنين' =>  ['is_enable' => true] , 'بوتان' =>  ['is_enable' => true] , 'بوليفيا' =>  ['is_enable' => true] , 'البوسنة والهرسك' =>  ['is_enable' => true] , 'بوتسوانا' =>  ['is_enable' => true] , 'البرازيل' =>  ['is_enable' => true] , 'بروناي' =>  ['is_enable' => true] , 'بلغاريا' =>  ['is_enable' => true] , 'بوركينا فاسو' =>  ['is_enable' => true] , 'بوروندي' =>  ['is_enable' => true] , 'كابو فيردي' =>  ['is_enable' => true] , 'كمبوديا' =>  ['is_enable' => true] , 'الكاميرون' =>  ['is_enable' => true] , 'كندا' =>  ['is_enable' => true] , 'جمهورية إفريقيا الوسطى (CAR)' =>  ['is_enable' => true] , 'تشاد' =>  ['is_enable' => true] , 'تشيلي' =>  ['is_enable' => true] , 'الصين' =>  ['is_enable' => true] , 'كولومبيا' =>  ['is_enable' => true] , 'جزر القمر' =>  ['is_enable' => true] , 'جمهورية الكونغو الديمقراطية' =>  ['is_enable' => true] , 'جمهورية الكونغو' =>  ['is_enable' => true] , 'كوستا ريكا' =>  ['is_enable' => true] , 'كوت ديفوار' =>  ['is_enable' => true] , 'كرواتيا' =>  ['is_enable' => true] , 'كوبا' =>  ['is_enable' => true] , 'قبرص' =>  ['is_enable' => true] , 'التشيك' =>  ['is_enable' => true] , 'الدنمارك' =>  ['is_enable' => true] , 'جيبوتي' =>  ['is_enable' => true] , 'دومينيكا' =>  ['is_enable' => true] , 'جمهورية الدومينيكان' =>  ['is_enable' => true] , '' =>  ['is_enable' => true] , 'الاكوادور' =>  ['is_enable' => true] , 'مصر' =>  ['is_enable' => true] , 'السلفادور' =>  ['is_enable' => true] , 'غينيا الإستوائية' =>  ['is_enable' => true] , 'إريتريا' =>  ['is_enable' => true] , 'إستونيا' =>  ['is_enable' => true] , 'إيسواتيني' =>  ['is_enable' => true] , 'أثيوبيا' =>  ['is_enable' => true] , 'فيجي' =>  ['is_enable' => true] , 'فنلندا' =>  ['is_enable' => true] , 'فرنسا' =>  ['is_enable' => true] , 'الجابون' =>  ['is_enable' => true] , 'غامبيا' =>  ['is_enable' => true] , 'جورجيا' =>  ['is_enable' => true] , 'ألمانيا' =>  ['is_enable' => true] , 'غانا' =>  ['is_enable' => true] , 'اليونان' =>  ['is_enable' => true] , 'غرينادا' =>  ['is_enable' => true] , 'غواتيمالا' =>  ['is_enable' => true] , 'غينيا' =>  ['is_enable' => true] , 'غينيا بيساو' =>  ['is_enable' => true] , 'غيانا' =>  ['is_enable' => true] , 'هايتي' =>  ['is_enable' => true] , 'هندوراس' =>  ['is_enable' => true] , 'هنغاريا' =>  ['is_enable' => true] , 'أيسلندا' =>  ['is_enable' => true] , 'الهند' =>  ['is_enable' => true] , 'إندونيسيا' =>  ['is_enable' => true] , 'إيران' =>  ['is_enable' => true] , 'العراق' =>  ['is_enable' => true] , 'أيرلندا' =>  ['is_enable' => true] , 'إسرائيل' =>  ['is_enable' => true] , 'إيطاليا' =>  ['is_enable' => true] , 'جامايكا' =>  ['is_enable' => true] , 'اليابان' =>  ['is_enable' => true] , 'الأردن' =>  ['is_enable' => true] , 'كازاخستان' =>  ['is_enable' => true] , 'كينيا' =>  ['is_enable' => true] , 'كيريباتي' =>  ['is_enable' => true] , 'كوسوفو' =>  ['is_enable' => true] , 'الكويت' =>  ['is_enable' => true] , 'قيرغيزستان' =>  ['is_enable' => true] , 'لاوس' =>  ['is_enable' => true] , 'لاتفيا' =>  ['is_enable' => true] , 'لبنان' =>  ['is_enable' => true] , 'ليسوتو' =>  ['is_enable' => true] , 'ليبيريا' =>  ['is_enable' => true] , 'ليبيا' =>  ['is_enable' => true] , 'ليختنشتاين' =>  ['is_enable' => true] , 'ليتوانيا' =>  ['is_enable' => true] , 'لوكسمبورغ' =>  ['is_enable' => true] , 'مدغشقر' =>  ['is_enable' => true] , 'ملاوي' =>  ['is_enable' => true] , 'ماليزيا' =>  ['is_enable' => true] , 'جزر المالديف' =>  ['is_enable' => true] , 'مالي' =>  ['is_enable' => true] , 'مالطا' =>  ['is_enable' => true] , 'جزر مارشال' =>  ['is_enable' => true] , 'موريتانيا' =>  ['is_enable' => true] , 'موريشيوس' =>  ['is_enable' => true] , 'المكسيك' =>  ['is_enable' => true] , 'ميكرونيزيا' =>  ['is_enable' => true] , 'مولدوفا' =>  ['is_enable' => true] , 'موناكو' =>  ['is_enable' => true] , 'منغوليا' =>  ['is_enable' => true] , 'الجبل الأسود' =>  ['is_enable' => true] , 'المغرب' =>  ['is_enable' => true] , 'موزمبيق' =>  ['is_enable' => true] , 'ميانمار' =>  ['is_enable' => true] , 'ناميبيا' =>  ['is_enable' => true] , 'ناورو' =>  ['is_enable' => true] , 'نيبال' =>  ['is_enable' => true] , 'هولندا' =>  ['is_enable' => true] , 'نيوزيلاندا' =>  ['is_enable' => true] , 'نيكاراغوا' =>  ['is_enable' => true] , 'النيجر' =>  ['is_enable' => true] , 'نيجيريا' =>  ['is_enable' => true] , 'كوريا الشمالية' =>  ['is_enable' => true] , 'مقدونيا الشمالية' =>  ['is_enable' => true] , 'النرويج' =>  ['is_enable' => true] , 'سلطنة عمان' =>  ['is_enable' => true] , 'باكستان' =>  ['is_enable' => true] , 'بالاو' =>  ['is_enable' => true] , 'فلسطين' =>  ['is_enable' => true] , 'بنما' =>  ['is_enable' => true] , 'بابوا غينيا الجديدة' =>  ['is_enable' => true] , 'باراغواي' =>  ['is_enable' => true] , 'بيرو' =>  ['is_enable' => true] , 'فيلبيني' =>  ['is_enable' => true] , 'بولندا' =>  ['is_enable' => true] , 'البرتغال' =>  ['is_enable' => true] , 'دولة قطر' =>  ['is_enable' => true] , 'رومانيا' =>  ['is_enable' => true] , 'روسيا' =>  ['is_enable' => true] , 'رواندا' =>  ['is_enable' => true] , 'سانت كيتس ونيفيس' =>  ['is_enable' => true] , 'القديسة لوسيا' =>  ['is_enable' => true] , 'سانت فنسنت وجزر غرينادين' =>  ['is_enable' => true] , 'ساموا' =>  ['is_enable' => true] , 'سان مارينو' =>  ['is_enable' => true] , 'ساو تومي وبرينسيبي' =>  ['is_enable' => true] , 'السنغال' =>  ['is_enable' => true] , 'صربيا' =>  ['is_enable' => true] , 'سيشيل' =>  ['is_enable' => true] , 'سيرا ليون' =>  ['is_enable' => true] , 'سنغافورة' =>  ['is_enable' => true] , 'سلوفاكيا' =>  ['is_enable' => true] , 'سلوفينيا' =>  ['is_enable' => true] , 'جزر سليمان' =>  ['is_enable' => true] , 'الصومال' =>  ['is_enable' => true] , 'جنوب أفريقيا' =>  ['is_enable' => true] , 'كوريا الجنوبية' =>  ['is_enable' => true] , 'جنوب السودان' =>  ['is_enable' => true] , 'إسبانيا' =>  ['is_enable' => true] , 'سيريلانكا' =>  ['is_enable' => true] , 'السودان' =>  ['is_enable' => true] , 'سورينام' =>  ['is_enable' => true] , 'السويد' =>  ['is_enable' => true] , 'سويسرا' =>  ['is_enable' => true] , 'سوريا' =>  ['is_enable' => true] , 'تايوان' =>  ['is_enable' => true] , 'طاجيكستان' =>  ['is_enable' => true] , 'تنزانيا' =>  ['is_enable' => true] , 'تايلاند' =>  ['is_enable' => true] , 'تيمور ليشتي' =>  ['is_enable' => true] , 'توجو' =>  ['is_enable' => true] , 'تونغا' =>  ['is_enable' => true] , 'ترينداد وتوباغو' =>  ['is_enable' => true] , 'تونس' =>  ['is_enable' => true] , 'ديك رومى' =>  ['is_enable' => true] , 'تركمانستان' =>  ['is_enable' => true] , 'توفالو' =>  ['is_enable' => true] , 'أوغندا' =>  ['is_enable' => true] , 'أوكرانيا' =>  ['is_enable' => true] , 'الإمارات العربية المتحدة' =>  ['is_enable' => true] , 'المملكة المتحدة' =>  ['is_enable' => true] , 'الولايات المتحدة الأمريكية' =>  ['is_enable' => true] , 'أوروغواي' =>  ['is_enable' => true] , 'أوزبكستان' =>  ['is_enable' => true] , 'فانواتو' =>  ['is_enable' => true] , 'مدينة الفاتيكان' =>  ['is_enable' => true] , 'فنزويلا' =>  ['is_enable' => true] , 'فيتنام' =>  ['is_enable' => true] , 'اليمن' =>  ['is_enable' => true] , 'زامبيا' =>  ['is_enable' => true] , 'زيمبابوي'  =>  ['is_enable' => true]
+            'أفغانستان' =>  ['is_enable' => true] , 'ألبانيا' =>  ['is_enable' => true] , 'أندورا' =>  ['is_enable' => true] , 'أنغولا' =>  ['is_enable' => true] , 'أنتيغوا وبربودا' =>  ['is_enable' => true] , 'الأرجنتين' =>  ['is_enable' => true] , 'أرمينيا' =>  ['is_enable' => true] , 'أستراليا' =>  ['is_enable' => true] , 'النمسا' =>  ['is_enable' => true] , 'أذربيجان' =>  ['is_enable' => true] , 'جزر البهاما' =>  ['is_enable' => true], 'بنغلاديش' =>  ['is_enable' => true] , 'بربادوس' =>  ['is_enable' => true] , 'بيلاروسيا' =>  ['is_enable' => true] , 'بلجيكا' =>  ['is_enable' => true] , 'بليز' =>  ['is_enable' => true] , 'بنين' =>  ['is_enable' => true] , 'بوتان' =>  ['is_enable' => true] , 'بوليفيا' =>  ['is_enable' => true] , 'البوسنة والهرسك' =>  ['is_enable' => true] , 'بوتسوانا' =>  ['is_enable' => true] , 'البرازيل' =>  ['is_enable' => true] , 'بروناي' =>  ['is_enable' => true] , 'بلغاريا' =>  ['is_enable' => true] , 'بوركينا فاسو' =>  ['is_enable' => true] , 'بوروندي' =>  ['is_enable' => true] , 'كابو فيردي' =>  ['is_enable' => true] , 'كمبوديا' =>  ['is_enable' => true] , 'الكاميرون' =>  ['is_enable' => true] , 'كندا' =>  ['is_enable' => true] , 'جمهورية إفريقيا الوسطى (CAR)' =>  ['is_enable' => true] , 'تشاد' =>  ['is_enable' => true] , 'تشيلي' =>  ['is_enable' => true] , 'الصين' =>  ['is_enable' => true] , 'كولومبيا' =>  ['is_enable' => true] , 'جزر القمر' =>  ['is_enable' => true] , 'جمهورية الكونغو الديمقراطية' =>  ['is_enable' => true] , 'جمهورية الكونغو' =>  ['is_enable' => true] , 'كوستا ريكا' =>  ['is_enable' => true] , 'كوت ديفوار' =>  ['is_enable' => true] , 'كرواتيا' =>  ['is_enable' => true] , 'كوبا' =>  ['is_enable' => true] , 'قبرص' =>  ['is_enable' => true] , 'التشيك' =>  ['is_enable' => true] , 'الدنمارك' =>  ['is_enable' => true] , 'جيبوتي' =>  ['is_enable' => true] , 'دومينيكا' =>  ['is_enable' => true] , 'جمهورية الدومينيكان' =>  ['is_enable' => true] , '' =>  ['is_enable' => true] , 'الاكوادور' =>  ['is_enable' => true], 'السلفادور' =>  ['is_enable' => true] , 'غينيا الإستوائية' =>  ['is_enable' => true] , 'إريتريا' =>  ['is_enable' => true] , 'إستونيا' =>  ['is_enable' => true] , 'إيسواتيني' =>  ['is_enable' => true] , 'أثيوبيا' =>  ['is_enable' => true] , 'فيجي' =>  ['is_enable' => true] , 'فنلندا' =>  ['is_enable' => true] , 'فرنسا' =>  ['is_enable' => true] , 'الجابون' =>  ['is_enable' => true] , 'غامبيا' =>  ['is_enable' => true] , 'جورجيا' =>  ['is_enable' => true] , 'ألمانيا' =>  ['is_enable' => true] , 'غانا' =>  ['is_enable' => true] , 'اليونان' =>  ['is_enable' => true] , 'غرينادا' =>  ['is_enable' => true] , 'غواتيمالا' =>  ['is_enable' => true] , 'غينيا' =>  ['is_enable' => true] , 'غينيا بيساو' =>  ['is_enable' => true] , 'غيانا' =>  ['is_enable' => true] , 'هايتي' =>  ['is_enable' => true] , 'هندوراس' =>  ['is_enable' => true] , 'هنغاريا' =>  ['is_enable' => true] , 'أيسلندا' =>  ['is_enable' => true] , 'الهند' =>  ['is_enable' => true] , 'إندونيسيا' =>  ['is_enable' => true] , 'إيران' =>  ['is_enable' => true], 'أيرلندا' =>  ['is_enable' => true] , 'إسرائيل' =>  ['is_enable' => true] , 'إيطاليا' =>  ['is_enable' => true] , 'جامايكا' =>  ['is_enable' => true] , 'اليابان' =>  ['is_enable' => true], 'كازاخستان' =>  ['is_enable' => true] , 'كينيا' =>  ['is_enable' => true] , 'كيريباتي' =>  ['is_enable' => true] , 'كوسوفو' =>  ['is_enable' => true], 'قيرغيزستان' =>  ['is_enable' => true] , 'لاوس' =>  ['is_enable' => true] , 'لاتفيا' =>  ['is_enable' => true], 'ليسوتو' =>  ['is_enable' => true] , 'ليبيريا' =>  ['is_enable' => true], 'ليختنشتاين' =>  ['is_enable' => true] , 'ليتوانيا' =>  ['is_enable' => true] , 'لوكسمبورغ' =>  ['is_enable' => true] , 'مدغشقر' =>  ['is_enable' => true] , 'ملاوي' =>  ['is_enable' => true] , 'ماليزيا' =>  ['is_enable' => true] , 'جزر المالديف' =>  ['is_enable' => true] , 'مالي' =>  ['is_enable' => true] , 'مالطا' =>  ['is_enable' => true] , 'جزر مارشال' =>  ['is_enable' => true], 'موريشيوس' =>  ['is_enable' => true] , 'المكسيك' =>  ['is_enable' => true] , 'ميكرونيزيا' =>  ['is_enable' => true] , 'مولدوفا' =>  ['is_enable' => true] , 'موناكو' =>  ['is_enable' => true] , 'منغوليا' =>  ['is_enable' => true] , 'الجبل الأسود' =>  ['is_enable' => true], 'موزمبيق' =>  ['is_enable' => true] , 'ميانمار' =>  ['is_enable' => true] , 'ناميبيا' =>  ['is_enable' => true] , 'ناورو' =>  ['is_enable' => true] , 'نيبال' =>  ['is_enable' => true] , 'هولندا' =>  ['is_enable' => true] , 'نيوزيلاندا' =>  ['is_enable' => true] , 'نيكاراغوا' =>  ['is_enable' => true] , 'النيجر' =>  ['is_enable' => true] , 'نيجيريا' =>  ['is_enable' => true] , 'كوريا الشمالية' =>  ['is_enable' => true] , 'مقدونيا الشمالية' =>  ['is_enable' => true] , 'النرويج' =>  ['is_enable' => true], 'باكستان' =>  ['is_enable' => true] , 'بالاو' =>  ['is_enable' => true], 'بنما' =>  ['is_enable' => true] , 'بابوا غينيا الجديدة' =>  ['is_enable' => true] , 'باراغواي' =>  ['is_enable' => true] , 'بيرو' =>  ['is_enable' => true] , 'فيلبيني' =>  ['is_enable' => true] , 'بولندا' =>  ['is_enable' => true] , 'البرتغال' =>  ['is_enable' => true], 'رومانيا' =>  ['is_enable' => true] , 'روسيا' =>  ['is_enable' => true] , 'رواندا' =>  ['is_enable' => true] , 'سانت كيتس ونيفيس' =>  ['is_enable' => true] , 'القديسة لوسيا' =>  ['is_enable' => true] , 'سانت فنسنت وجزر غرينادين' =>  ['is_enable' => true] , 'ساموا' =>  ['is_enable' => true] , 'سان مارينو' =>  ['is_enable' => true] , 'ساو تومي وبرينسيبي' =>  ['is_enable' => true] , 'السنغال' =>  ['is_enable' => true] , 'صربيا' =>  ['is_enable' => true] , 'سيشيل' =>  ['is_enable' => true] , 'سيرا ليون' =>  ['is_enable' => true] , 'سنغافورة' =>  ['is_enable' => true] , 'سلوفاكيا' =>  ['is_enable' => true] , 'سلوفينيا' =>  ['is_enable' => true] , 'جزر سليمان' =>  ['is_enable' => true] , 'الصومال' =>  ['is_enable' => true] , 'جنوب أفريقيا' =>  ['is_enable' => true] , 'كوريا الجنوبية' =>  ['is_enable' => true], 'إسبانيا' =>  ['is_enable' => true] , 'سيريلانكا' =>  ['is_enable' => true], 'سورينام' =>  ['is_enable' => true] , 'السويد' =>  ['is_enable' => true] , 'سويسرا' =>  ['is_enable' => true], 'تايوان' =>  ['is_enable' => true] , 'طاجيكستان' =>  ['is_enable' => true] , 'تنزانيا' =>  ['is_enable' => true] , 'تايلاند' =>  ['is_enable' => true] , 'تيمور ليشتي' =>  ['is_enable' => true] , 'توجو' =>  ['is_enable' => true] , 'تونغا' =>  ['is_enable' => true] , 'ترينداد وتوباغو' =>  ['is_enable' => true], 'ديك رومى' =>  ['is_enable' => true] , 'تركمانستان' =>  ['is_enable' => true] , 'توفالو' =>  ['is_enable' => true] , 'أوغندا' =>  ['is_enable' => true] , 'أوكرانيا' =>  ['is_enable' => true], 'المملكة المتحدة' =>  ['is_enable' => true] , 'الولايات المتحدة الأمريكية' =>  ['is_enable' => true] , 'أوروغواي' =>  ['is_enable' => true] , 'أوزبكستان' =>  ['is_enable' => true] , 'فانواتو' =>  ['is_enable' => true] , 'مدينة الفاتيكان' =>  ['is_enable' => true] , 'فنزويلا' =>  ['is_enable' => true] , 'فيتنام' =>  ['is_enable' => true], 'زامبيا' =>  ['is_enable' => true] , 'زيمبابوي'  =>  ['is_enable' => true]
         ];
 
         foreach($countries as $countryName => $countryData){

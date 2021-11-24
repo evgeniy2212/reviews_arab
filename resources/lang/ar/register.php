@@ -9,7 +9,7 @@ return [
     'city_town' => ' البلد',
     'state' => 'المنطقة',
     'zip_code' => 'فهرس',
-    'e-mail' => 'E-mail',
+    'e-mail' => 'بريد الالكتروني',
     'password' => 'كلمه السر',
     'confirm_password' => 'تأكيد كلمة المرور',
     'confirm_email' => 'تأكيد عنوان البريد الإلكتروني',

@@ -25,13 +25,13 @@
                             <div class="col-12 col-sm-6 col-md-5 offset-md-1">
                                 <div class="get-in-touch-info-item">
                                     <div style="white-space:nowrap">
-                                        <span style="font-weight: bold">Tel.</span> <span>{{ \App\Services\ServiceInfoService::getInfoValueByName('phone') }}</span>
+                                        <span style="font-weight: bold">هاتف.</span> <span>{{ \App\Services\ServiceInfoService::getInfoValueByName('phone') }}</span>
                                     </div>
                                     <div style="white-space:nowrap">
-                                        <span style="font-weight: bold">Fax.</span> <span>{{ \App\Services\ServiceInfoService::getInfoValueByName('fax') }}</span>
+                                        <span style="font-weight: bold">فاكس.</span> <span>{{ \App\Services\ServiceInfoService::getInfoValueByName('fax') }}</span>
                                     </div>
                                     <div style="white-space:nowrap">
-                                        <span style="font-weight: bold">Email:</span> <span>{{ \App\Services\ServiceInfoService::getInfoValueByName('email') }}</span>
+                                        <span style="font-weight: bold">بريد الالكتروني:</span> <span>{{ \App\Services\ServiceInfoService::getInfoValueByName('email') }}</span>
                                     </div>
                                 </div>
                             </div>

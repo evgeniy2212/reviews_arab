@@ -9,7 +9,7 @@ return [
     'moderation.decline' => 'يلغي',
     'contacts' => 'جهات الاتصال',
     'address' => 'عنوان',
-    'email' => 'E-mail',
+    'email' => 'بريد الالكتروني',
     'suite' => 'عدد',
     'city' => 'مدينة',
     'save' => 'يحفظ',

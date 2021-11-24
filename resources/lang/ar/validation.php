@@ -123,7 +123,7 @@ return [
         array(
             'name' => 'Имя',
             'username' => 'Никнейм',
-            'email' => 'E-Mail адрес',
+            'email' => 'بريد الالكتروني',
             'first_name' => 'أضف فيديو',
             'last_name' => 'أضف صورة',
             'password' => 'Пароль',

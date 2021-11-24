@@ -131,7 +131,7 @@
                                 <div class="d-md-flex flex-md-wrap align-items-md-center registerFields">
                                     <div class="col-md-4 col-lg-3 registerLabel">
                                         <label for="email">
-                                            @lang('register.e-mail') address
+                                            @lang('register.e-mail')
                                         </label>
                                     </div>
                                     <div class="col-md-8 col-lg-9">

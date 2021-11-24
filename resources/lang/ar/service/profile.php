@@ -1,7 +1,7 @@
 <?php
 return [
     'banner_category' => 'فئة',
-    'banner_another_email' => 'اخر E-mail',
+    'banner_another_email' => 'اخر بريد الالكتروني',
     'time_scale' => 'فترة',
     'from' => 'يبدأ',
     'to' => 'نهاية',

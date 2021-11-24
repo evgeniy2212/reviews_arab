@@ -645,7 +645,7 @@ input[type="file"] {
 .single-review-review .congratulation-category {
     text-align: right;
     text-shadow: 1px 1px 5px #2f5496;
-    float: left;
+    float: right;
     width: auto;
     font-family: "ImprintMTShadow";
     font-weight: 500;

@@ -120,7 +120,7 @@
                         <a href="{{ route('admin.edit_review_logo', ['logo' => $review->logo->first()->id]) }}"
                            type="button"
                            class="otherButton">
-                            {{ __('service/admin.update_item', ['item' => 'logo']) }}
+                            {{ __('service/admin.update_item', ['item' => 'شعار']) }}
                         </a>
                         <a data-toggle="modal"
                            type="button"
@@ -129,13 +129,13 @@
                            data-review-name="{{ $review->full_name }}"
                            data-review-category-name="{{ $review->category->title }}"
                            data-target="#deleteLogoModal">
-                            {{ __('service/admin.delete_item', ['item' => 'logo']) }}
+                            {{ __('service/admin.delete_item', ['item' => 'شعار']) }}
                         </a>
                     @else
                         <a href="{{ route('admin.create_review_logo', ['review' => $review->id]) }}"
                            type="button"
                            class="otherButton">
-                            {{ __('service/admin.add_item', ['item' => 'logo']) }}
+                            {{ __('service/admin.add_item', ['item' => 'شعار']) }}
                         </a>
                     @endif
                 @endif

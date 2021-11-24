@@ -110,7 +110,7 @@
 }
 .createReviewForm div{
     padding: 0 0;
-    text-align: left;
+    text-align: right;
 }
 #createReviewForm, #editReviewForm {
     width: 100%;
@@ -368,7 +368,7 @@ input[type="file"] {
         -ms-flex-pack: center;
         justify-content: center;
         height: auto;
-        text-align: left;
+        text-align: right;
         margin-bottom: 10px;
     }
     .review-filters input,
@@ -448,7 +448,7 @@ input[type="file"] {
 }
 .like-container-left {
     /*width: 35%;*/
-    text-align: left;
+    text-align: right;
 }
 
 .single-comment-info span {
@@ -471,7 +471,7 @@ input[type="file"] {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    width: 15%;
+    width: 18%;
 }
 @media screen and (max-width: 767px) {
     .single-comment-info {
@@ -609,8 +609,8 @@ input[type="file"] {
     padding-bottom: 10px;
 }
 .single-review-review p, .single-review-review span:not(.single-review-holder):not(.congratulation-category) {
-    text-align: left;
-    float: left;
+    text-align: right;
+    float: right;
     width: 100%;
     padding-bottom: 5px;
 }
@@ -626,11 +626,11 @@ input[type="file"] {
     }
 }
 .single-review-review img {
-    float: right;
+    float: left;
     margin: 5px 5px 5px 5px;
 }
 .single-review-review video {
-    float: right;
+    float: left;
     margin: 5px 5px 5px 5px;
     -o-object-fit: fill;
     object-fit: fill;
@@ -643,7 +643,7 @@ input[type="file"] {
     }
 }
 .single-review-review .congratulation-category {
-    text-align: left;
+    text-align: right;
     text-shadow: 1px 1px 5px #2f5496;
     float: left;
     width: auto;
@@ -735,8 +735,8 @@ input[type="file"] {
 
 
 .profile-single-review-review p, .profile-single-review-review span {
-    text-align: left;
-    float: left;
+    text-align: right;
+    float: right;
     width: 100%;
     padding-bottom: 5px;
 }
@@ -887,8 +887,8 @@ input[type="file"] {
 }
 @media screen and (max-width: 767px) {
     .review-textarea [class^="col-"] {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 .review-textarea[style*='display: block'], .comment[style*='display: block'] {

@@ -142,14 +142,14 @@
                 </div>
                 @auth()
                     <div class="review-textarea flex-wrap" data-review-id="{{ $review->id }}">
-                        <div class="col-12 col-md-8 mb-2 mb-md-0">
+                        <div class="col-12 col-md-7 col-lg-8 mb-2 mb-md-0">
                             <textarea name="review"
                                       type="text"
                                       id="review-text"
                                       placeholder="@lang('service/index.review_text_placeholder')"
                                       style="overflow:hidden"></textarea>
                         </div>
-                        <div class="col-12 col-md-4 comment-buttons">
+                        <div class="col-12 col-md-5 col-lg-4 comment-buttons">
                             <button class="otherButton"
                                     id="addCommentButton-{{ $review->id }}"
                                     data-close="{!! __('service/index.close') !!}"
@@ -172,7 +172,7 @@
                             </div>
                         </div>
                 @endauth
-                <div class="col-md-5 offset-md-7">
+                <div class="col-md-5 col-lg-4 offset-md-7 offset-lg-8">
                     <button class="otherButton" style="white-space: nowrap"
                             id="commentButton-{{ $review->id }}"
                             data-close="{!! __('service/index.close') !!}"
@@ -181,7 +181,7 @@
                         @lang('service/index.reviews.show_comments') ({!! $review->comments->count() !!})
                     </button>
                 </div>
-                <div class="col-md-5 offset-md-7">
+                <div class="col-md-5 col-lg-4 offset-md-7 offset-lg-8">
                     @auth()
 {{--                        @if(auth()->user()->id !== $review->user_id)--}}
                             <a type="button"

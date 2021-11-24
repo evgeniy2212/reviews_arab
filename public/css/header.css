@@ -76,7 +76,7 @@
 }
 
 .site-name__link {
-    padding-left: 5px;
+    padding-right: 5px;
     font-family: "ImprintMTShadow";
     font-weight: 300;
     font-size: 43px;
@@ -124,7 +124,7 @@
     }
 }
 .site-name p {
-    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 0;
     font-weight: bolder;
     font-size: 14px;
@@ -419,9 +419,9 @@ body.mobile-nav-active #mobile-nav {
     .header .search-form button {
         width: 100%;
         padding-left: 5px;
-        text-align: left;
-        -moz-text-align-last: left;
-        text-align-last: left;
+        text-align: right;
+        -moz-text-align-last: right;
+        text-align-last: right;
     }
     .header__form-wrap {
         display: block;
@@ -443,9 +443,9 @@ body.mobile-nav-active #mobile-nav {
         padding-left: 5px;
     }
     .input, .select {
-        text-align: left !important;
-        -moz-text-align-last: left !important;
-        text-align-last: left !important;
+        text-align: right !important;
+        -moz-text-align-last: right !important;
+        text-align-last: right !important;
     }
 }
 .middleHeadContainer {
@@ -472,7 +472,7 @@ body.mobile-nav-active #mobile-nav {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        padding-right: 15px;
+        padding-left: 15px;
     }
 }
 

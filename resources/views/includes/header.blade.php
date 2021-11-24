@@ -157,28 +157,26 @@
                           class="form-inline search-form align-items-md-end"
                           novalidate=""
                           id="searchForm">
-                        <div class="search-form__inner">
-                            <input class="form-control mr-sm-2 input"
-                                   id="searchCategory"
-                                   type="text"
-                                   name="search"
-                                   placeholder="{{ __('service/index.search') }}"
-                                   aria-label="Search"
-                                   value="{{ isset($search) ? $search : '' }}"
-                                   required>
-                            <select class="form-control mr-sm-2 select"
-                                    id="selectCategory"
-                                    name="category"
-                                    required>
-                                <option disabled selected>@lang('service/index.head_select')</option>
-                                @foreach($reviewCategories as $review_category)
-                                    <option {{ (isset($search_category) && $search_category == $review_category->slug) ? 'selected' : '' }}
-                                            value="{{ $review_category->slug }}">
-                                        {!! \App\Services\DataService::getTranslate('service/index.review_naming.' . $review_category->title) !!}
-                                    </option>
-                                @endforeach
-                            </select>
-                        </div>
+                        <input class="form-control mr-sm-2 input"
+                               id="searchCategory"
+                               type="text"
+                               name="search"
+                               placeholder="{{ __('service/index.search') }}"
+                               aria-label="Search"
+                               value="{{ isset($search) ? $search : '' }}"
+                               required>
+                        <select class="form-control mr-sm-2 select"
+                                id="selectCategory"
+                                name="category"
+                                required>
+                            <option disabled selected>@lang('service/index.head_select')</option>
+                            @foreach($reviewCategories as $review_category)
+                                <option {{ (isset($search_category) && $search_category == $review_category->slug) ? 'selected' : '' }}
+                                        value="{{ $review_category->slug }}">
+                                    {!! \App\Services\DataService::getTranslate('service/index.review_naming.' . $review_category->title) !!}
+                                </option>
+                            @endforeach
+                        </select>
                         <button class="btn btn-outline-primary mb-2 mb-sm-0" type="submit">@lang('service/index.go')</button>
                     </form>
                 </div>

@@ -168,7 +168,9 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 5px 5px 0 0;
+    margin: 5px 0 0 5px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .profile-complain-btn {
     width: 25%;
@@ -203,7 +205,7 @@
     justify-content: space-between;
     width: 75%;
     height: 100%;
-    padding: 0 0 0 5px;
+    padding: 0 5px 0 0;
     line-height: 1.2rem;
     letter-spacing: 1px;
 }
@@ -216,12 +218,12 @@
     }
 }
 .profile-single-congratulation .congratulation-category {
-    text-align: left;
+    text-align: right;
     text-shadow: 1px 1px 5px #2f5496;
-    float: left;
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
+    float: right;
+    /*width: -webkit-min-content;*/
+    /*width: -moz-min-content;*/
+    /*width: min-content;*/
     font-family: "ImprintMTShadow";
     font-weight: 500;
     font-size: 1rem;
@@ -229,7 +231,7 @@
 }
 
 .profile-single-congratulation p {
-    text-align: left;
+    text-align: right;
     width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -262,14 +264,14 @@
     border: 1px groove #4a92f8;
     -o-object-fit: cover;
     object-fit: cover;
-    float: right;
+    float: left;
     margin: 5px 5px 5px 0;
 }
 .profile-single-congratulation .previewImage{
     width: 100px;
     height: 100px;
     border: 1px groove #4a92f8;
-    float: right;
+    float: left;
     margin: 5px 5px 5px 10px;
 }
 .single-congratulation-private {
@@ -310,17 +312,17 @@
     background-color: #f5fcb3;
 }
 .profile-single-review-review span, .profile-single-review-review p {
-    text-align: left;
-    float: left;
+    text-align: right;
+    float: right;
     width: 100%;
     padding-bottom: 5px;
 }
 .profile-single-review-review img {
-    float: right;
+    float: left;
     margin: 5px 5px 5px 5px;
 }
 .profile-single-review-review video {
-    float: right;
+    float: left;
     margin: 5px 5px 5px 5px;
     -o-object-fit: fill;
     object-fit: fill;
@@ -1177,7 +1179,7 @@ select[id*='bannerType']{
         padding-right: 15px;
     }
     .importantDateInfo > * {
-        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 10px;
     }
 }
@@ -1227,7 +1229,7 @@ select[id*='bannerType']{
         justify-content: stretch;
         padding-bottom: 0;
         margin-bottom: 0;
-        text-align: left;
+        text-align: right;
     }
     .profile-important-date-filters select {
         width: 100%;
@@ -1373,12 +1375,11 @@ select[id*='bannerType']{
     -ms-user-select: none;
     user-select: none;
     white-space: nowrap;
-    margin: 0 0 0 10px;
+    margin: 0 10px 0 0;
 }
 #checkboxes .custom-checkbox+label::before {
     width: 1.2em;
     height: 1.2em;
-    -ms-flex-negative: 0;
     flex-shrink: 0;
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;

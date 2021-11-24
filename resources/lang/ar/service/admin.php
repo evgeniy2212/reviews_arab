@@ -56,7 +56,7 @@ return [
     'user.name' => 'اسم: ',
     'user.pseudonym' => 'الاسم المستعار: ',
     'user.address' => 'عنوان: ',
-    'user.email' => 'Email: ',
+    'user.email' => 'بريد الالكتروني: ',
     'user.reviews' => 'مراجعات المستخدم',
     'max_banners_published' => 'تم بالفعل نشر العدد الأقصى (:count) من اللافتات',
     'user_updated_successfully' => 'المستخدم:name تحديث الاسم بنجاح!',

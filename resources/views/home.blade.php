@@ -21,7 +21,7 @@
                     @lang('service/home.although')
                 </p>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                             @lang('service/home.everything')
                         </span>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="home-point" id="test1">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                         <span class="home-point-title">
                             @lang('service/home.review_people')
                         </span>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                             @lang('service/home.review_companies')
                         </span>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                         @lang('service/home.review_products')
                     </span>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                             @lang('service/home.review_vacations')
                         </span>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                             @lang('service/home.privacy')
                         </span>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                             @lang('service/home.communication')
                         </span>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                             @lang('service/home.congratulations')
                         </span>
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                         @lang('service/home.reminders')
                     </span>
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                         @lang('service/home.photo')
                     </span>
@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                         @lang('service/home.complain')
                     </span>
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="home-point">
-                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>
+{{--                    <img src="{{ asset('storage/images/home_new_image.png') }}" height="30px" width="60px"/>--}}
                     <span class="home-point-title">
                         @lang('service/home.deleting_reviews')
                     </span>

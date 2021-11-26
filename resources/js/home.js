@@ -86,24 +86,26 @@
             setTimeout(function(){
                 startHomeHeight = $('.home').height();
                 let heightIndex = 0;
-                $('.home-point img').each(function(index){
-                    let $this = $(this);
-                    $(this).delay(250 * (index + 1)).fadeTo( 200, 1 );
-                    setTimeout(function(){
-                        if (($('.home-point').height() * index + startHomeHeight) > containerMainHeight) {
-                            ++heightIndex;
-                            animateContent('down', (50 * heightIndex), 200);
-                        }
-                    }, 250 * (index + 1));
-                });
+                // console.log('show img');
+                // $('.home-point img').each(function(index){
+                //     let $this = $(this);
+                //     $(this).delay(250 * (index + 1)).fadeTo( 200, 1 );
+                //     setTimeout(function(){
+                //         if (($('.home-point').height() * index + startHomeHeight) > containerMainHeight) {
+                //             ++heightIndex;
+                //             animateContent('down', (50 * heightIndex), 200);
+                //         }
+                //     }, 250 * (index + 1));
+                // });
                 // animateContent('up');
             }, 7000);
             setTimeout(function() {
                 if ($('.home').height() > containerMainHeight) {
                     animateContent('up', ($('.home-point').height() + 50), 100);
                 }
+                console.log('10300');
                 // }
-            }, 10300);
+            }, 7100);
             setTimeout(function(){
                 // var startHomePointTitle = $( ".home-point img" ).first().position().top;
                 let heightIndex = 0;
@@ -134,7 +136,7 @@
                             .fadeTo( 175, 1 );
                     }
                 });
-            }, 10500);
+            }, 7300);
 
             setTimeout(function(){
                 if ($('.home').height() > containerMainHeight) {
@@ -186,7 +188,7 @@
                         sessionStorage.setItem('slider_enable', true);
                     // }
                 }, delay + 2000);
-            }, 18000);
+            }, 14800);
         // } else {
         //     $('.home *').show();
         // }

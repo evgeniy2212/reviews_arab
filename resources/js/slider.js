@@ -5,7 +5,7 @@
             loop: true,
             allowTouchMove: false,
             autoplay: {
-                delay: 42000,
+                delay: 5000,
                 disableOnInteraction: false,
             },
             navigation: {

@@ -233,7 +233,11 @@
                             <div class="swiper-slide">
 
                                 @if(empty($banner->link))
-                                    <div class="slider_content" style="height: 150px; background-position: center top; background-image: url('{{ $banner->getImageUrl() }}'); background-size: auto {{ empty($banner->title) ? '150' : '130' }}px;">
+                                    <div class="slider_content"
+                                         style="height: 150px;
+                                         background-position: center top;
+                                         background-image: url('{{ $banner->getImageUrl() }}');
+                                         background-size: auto {{ empty($banner->title) ? '150' : '130' }}px;">
                                         <span style="font-size: 0.9rem">{{ empty($banner->title) ? '' : $banner->title }}</span>
                                     </div>
                                 @else
@@ -250,9 +254,9 @@
                                         cursor: pointer;
                                         background-position: center top;
                                         background-size: auto 150px;">
-                                        <span class="sliderBody">
-                                            {!! $banner->body !!}
-                                        </span>
+                                    <span class="sliderBody">
+                                        {!! $banner->body !!}
+                                    </span>
                                 </div>
                             </div>
                         @endif

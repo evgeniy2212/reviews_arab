@@ -24,7 +24,7 @@ return [
     'sort-by' => 'تصنيف حسب',
     'sort' => 'نوع',
     'filter' => 'منقي',
-    'header_site_name' => 'reviews4arab',
+    'header_site_name' => 'Reviews4arab',
     'header_site_name_dom' => '.com',
     'review_naming.person' => 'تقييم شخص',
     'review_naming.vacations' => 'مراجعة المهن',

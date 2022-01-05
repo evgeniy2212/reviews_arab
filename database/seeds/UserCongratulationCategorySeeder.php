@@ -99,14 +99,134 @@ class UserCongratulationCategorySeeder extends Seeder
             ],
             [
                 'title' => [
-                    'en' => 'Birthday of Martin Luther King Jr.',
-                    'ar' => 'День рождения Мартина Лютера Кинга-младшего.'
+                    'en' => 'اليوم الوطني السعودي',
+                    'ar' => 'اليوم الوطني السعودي'
                 ],
                 'name' => [
                     'en' => 'اليوم الوطني السعودي',
                     'ar' => 'اليوم الوطني السعودي'
                 ],
                 'slug' => \Illuminate\Support\Str::slug('Saudi National Day'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'Engagements',
+                    'ar' => 'الخطوبة'
+                ],
+                'name' => [
+                    'en' => 'Engagements',
+                    'ar' => 'الخطوبة'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Engagements'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'Graduation',
+                    'ar' => 'التخرج من المدرسة الثانوية'
+                ],
+                'name' => [
+                    'en' => 'Graduation',
+                    'ar' => 'التخرج من المدرسة الثانوية'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Graduation'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'Happy anniversary',
+                    'ar' => 'ذكرى سنوية سعيدة'
+                ],
+                'name' => [
+                    'en' => 'Happy anniversary',
+                    'ar' => 'ذكرى سنوية سعيدة'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Happy anniversary'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'Happy birthday',
+                    'ar' => 'عيد ميلاد'
+                ],
+                'name' => [
+                    'en' => 'Happy birthday',
+                    'ar' => 'عيد ميلاد'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Happy birthday'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'New born',
+                    'ar' => 'ميلاد سعيد'
+                ],
+                'name' => [
+                    'en' => 'New born',
+                    'ar' => 'ميلاد سعيد'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('New born'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'New home',
+                    'ar' => 'حفلة الإنتقال'
+                ],
+                'name' => [
+                    'en' => 'New home',
+                    'ar' => 'حفلة الإنتقال'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('New home'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'New year',
+                    'ar' => 'سنة جديدة'
+                ],
+                'name' => [
+                    'en' => 'New year',
+                    'ar' => 'سنة جديدة'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('New year'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'Promotion',
+                    'ar' => 'ترقية وظيفية'
+                ],
+                'name' => [
+                    'en' => 'Promotion',
+                    'ar' => 'ترقية وظيفية'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Promotion'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'Starting a new business',
+                    'ar' => 'ابدأ مشروعًا جديدًا'
+                ],
+                'name' => [
+                    'en' => 'Starting a new business',
+                    'ar' => 'ابدأ مشروعًا جديدًا'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Starting a new business'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'Wedding',
+                    'ar' => 'قران'
+                ],
+                'name' => [
+                    'en' => 'Wedding',
+                    'ar' => 'قران'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Wedding'),
                 'is_published' => true,
             ],
         ];

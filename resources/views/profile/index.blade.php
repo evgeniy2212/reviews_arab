@@ -32,11 +32,11 @@
                             <span>@lang('service/index.mail', ['count' => auth()->user()->getNewMessagesCount()])</span>
                         </a>
                     </li>
-{{--                    <li class="{{ Request::url() == route('profile-congratulations.create') ? 'active' : '' }}">--}}
-{{--                        <a href="{{ route('profile-congratulations.create') }}">--}}
-{{--                            <span>@lang('service/index.write_congratulation')</span>--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
+                    <li class="{{ Request::url() == route('profile-congratulations.create') ? 'active' : '' }}">
+                        <a href="{{ route('profile-congratulations.create') }}">
+                            <span>@lang('service/index.write_congratulation')</span>
+                        </a>
+                    </li>
                     <li class="{{ Request::url() == route('profile-congratulations.index') ? 'active' : '' }}">
                         <a href="{{ route('profile-congratulations.index') }}">
                             <span>@lang('service/index.sent_congratulation')</span>

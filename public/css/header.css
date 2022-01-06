@@ -477,7 +477,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .post {
-    width: 310px;
+    width: 306px;
     height: 155px;
     border: 3px double #2f5496;
     outline: 1px solid #2f5496;
@@ -607,8 +607,8 @@ body.mobile-nav-active #mobile-nav {
     content: '' !important;
     display: inline-block;
     color: #181717;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
 }
@@ -647,9 +647,14 @@ body.mobile-nav-active #mobile-nav {
     transition: opacity .1s;
 }
 
-.swiper-rtl .swiper-button-next,
-.swiper-rtl .swiper-button-prev {
-    opacity: 0.5;
+/*.swiper-rtl .swiper-button-next,*/
+/*.swiper-rtl .swiper-button-prev {*/
+/*    opacity: 0.5;*/
+/*}*/
+
+.post .swiper:hover .swiper-button-next,
+.post .swiper:hover .swiper-button-prev {
+    opacity: .9;
 }
 
 .slider_content {

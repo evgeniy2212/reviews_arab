@@ -126,6 +126,7 @@ return [
     'edit_contacts' => 'تحرير جهات الاتصال',
     'edit_profile' => 'تعديل الملف الشخصي',
     'edit' => 'يحرر',
+    'new_group_name' => 'مجموعة جديدة:',
     'region' => 'المنطقة',
     'all_rights_reserved' => '© جميع حقوق النشر والتأليف محفوظة لصالح reviews4arab.com 2020',
     'contacts' => 'تواصل معنا',

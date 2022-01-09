@@ -132,7 +132,7 @@ class CategoryGroupByReviewSeeder extends Seeder
                     ],
                     'Other' => [
                         'en' => 'Other',
-                        'ar' => 'وجبات خفيفة وحلويات'
+                        'ar' => 'أخرى'
                     ]
                 ],
             ],

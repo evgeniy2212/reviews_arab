@@ -51,7 +51,7 @@
                                    value="2">
                         </div>
                     </div>
-                    <div class="d-flex align-items-center review-info-container">
+                    <div class="d-flex align-items-center review-info-container justify-content-center">
                         @include('reviews.review_inputs.' . $slug)
                     </div>
                     {{--<div class="d-flex">--}}

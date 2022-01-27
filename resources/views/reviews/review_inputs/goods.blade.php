@@ -32,7 +32,7 @@
         </div>
     </div>
 </div>
-<div class="col-12 col-lg-7">
+<div class="col-12 col-md-7 col-lg-5">
     <div class="d-flex reviews-heading align-items-center flex-grow-1 flex-wrap  flex-lg-nowrap">
         <div style="white-space:nowrap">
             <span class="create-review-label">

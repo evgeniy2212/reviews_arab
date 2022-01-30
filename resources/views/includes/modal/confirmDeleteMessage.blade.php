@@ -10,7 +10,7 @@
                     <div>
                         {{ csrf_field() }}
                         {{ method_field('DELETE') }}
-                        <p >{!! __('service/message.delete_confirmation', ['item' => 'mail']) !!}</p>
+                        <p >{!! __('service/message.delete_confirmation', ['item' => 'بريد']) !!}</p>
                     </div>
                     <div class="d-flex justify-content-center">
                         <div class="col-md-3">

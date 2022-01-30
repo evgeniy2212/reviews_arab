@@ -97,16 +97,77 @@ class UserImportantDateTypeSeeder extends Seeder
             ],
             [
                 'title' => [
-                    'en' => 'Birthday of Martin Luther King Jr.',
-                    'ar' => 'День рождения Мартина Лютера Кинга-младшего.'
+                    'en' => 'ذكرى سنوية سعيدة',
+                    'ar' => 'ذكرى سنوية سعيدة'
                 ],
                 'name' => [
-                    'en' => 'اليوم الوطني السعودي',
-                    'ar' => 'اليوم الوطني السعودي'
+                    'en' => 'ذكرى سنوية سعيدة',
+                    'ar' => 'ذكرى سنوية سعيدة'
                 ],
-                'slug' => \Illuminate\Support\Str::slug('Saudi National Day'),
+                'slug' => \Illuminate\Support\Str::slug('Happy Anniversary'),
                 'is_published' => true,
             ],
+            [
+                'title' => [
+                    'en' => 'عيد ميلاد سعيد',
+                    'ar' => 'عيد ميلاد سعيد'
+                ],
+                'name' => [
+                    'en' => 'عيد ميلاد سعيد',
+                    'ar' => 'عيد ميلاد سعيد'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Happy Birthday'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'مولود جديد',
+                    'ar' => 'مولود جديد'
+                ],
+                'name' => [
+                    'en' => 'مولود جديد',
+                    'ar' => 'مولود جديد'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('New Born'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'مولود جديد',
+                    'ar' => 'مولود جديد'
+                ],
+                'name' => [
+                    'en' => 'سنة جديدة',
+                    'ar' => 'سنة جديدة'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('New Year'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'مولود جديد',
+                    'ar' => 'مولود جديد'
+                ],
+                'name' => [
+                    'en' => 'بدأ مشروع جديد',
+                    'ar' => 'بدأ مشروع جديد'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Starting a new business'),
+                'is_published' => true,
+            ],
+            [
+                'title' => [
+                    'en' => 'زواج',
+                    'ar' => 'زواج'
+                ],
+                'name' => [
+                    'en' => 'زواج',
+                    'ar' => 'زواج'
+                ],
+                'slug' => \Illuminate\Support\Str::slug('Wedding'),
+                'is_published' => true,
+            ],
+
         ];
 
         foreach(\App\Models\UserImportantDateType::all() as $importantType){

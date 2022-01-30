@@ -160,8 +160,10 @@
                 }
             });
             review.find('.review-textarea').toggle(500);
-            let is_open =  $(this).text().trim() !== 'Close';
-            is_open ? $(this).text('Close') : $(this).text('Reply');
+            let closeButtonName = $(this).attr('data-close');
+            let replyButtonName = $(this).attr('data-reply');
+            let is_open =  $(this).text().trim() !== closeButtonName;
+            is_open ? $(this).text(closeButtonName) : $(this).text(replyButtonName);
             if(is_open){
                 review_content.animate({
                     height: "50%",
@@ -221,7 +223,7 @@
                     }
                 });
             } else {
-                alert('Comment is empty!');
+                alert('رسالة البريد فارغة!');
             }
         });
 
@@ -243,7 +245,7 @@
                 });
             } else {
                 review.find('button').removeAttr("disabled");
-                alert('Mail message is empty!');
+                alert('رسالة البريد فارغة!');
             }
         });
 
@@ -271,7 +273,7 @@
                 });
             } else {
                 review.find('button').removeAttr("disabled");
-                alert('Mail message is empty!');
+                alert('رسالة البريد فارغة!');
             }
         });
 

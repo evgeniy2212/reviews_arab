@@ -55,7 +55,7 @@
                                    value="{{ $review->rating }}">
                         </div>
                     </div>
-                    <div class="d-flex align-items-center review-info-container">
+                    <div class="d-flex align-items-center review-info-container justify-content-center">
                         @include('reviews.review_inputs.' . $review->category->slug)
                     </div>
                     {{--<div class="d-flex">--}}

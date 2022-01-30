@@ -32,14 +32,14 @@
         </div>
     </div>
 </div>
-<div class="col-12 col-lg-7">
+<div class="col-12 col-md-7 col-lg-6">
     <div class="d-flex align-items-center flex-grow-1 flex-wrap flex-lg-nowrap">
         <div>
             <span class="create-review-label">
                 @lang('register.country')
             </span>
         </div>
-        <div class="col-md-3 mb-2 mb-md-0">
+        <div class="col-md-3 col-lg-4 mb-2 mb-md-0">
             <select class="select"
                     id="selectCountry"
                     name="country"

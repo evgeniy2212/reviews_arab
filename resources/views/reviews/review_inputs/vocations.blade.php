@@ -32,14 +32,14 @@
         </div>
     </div>
 </div>
-<div class="col-12 col-lg-7">
+<div class="col-12 col-md-7 col-lg-5">
     <div class="d-flex align-items-center flex-grow-1 flex-wrap flex-lg-nowrap">
         <div style="white-space:nowrap">
             <span class="create-review-label">
                 @lang('service/index.select_review_category_vocation')
             </span>
         </div>
-        <div class="col-sm-3 mb-2 mb-sm-0">
+        <div class="col-sm-3 col-lg-4 mb-2 mb-sm-0">
             <select class="select"
                     id="selectCategoryGood"
                     name="category_by_review_id"
@@ -57,7 +57,7 @@
                 @lang('register.country')
             </span>
         </div>
-        <div class="col-sm-3 mb-2 mb-sm-0">
+        <div class="col-sm-3 col-lg-4 mb-2 mb-sm-0">
             <select class="select"
                     id="selectCountry"
                     name="country_id"

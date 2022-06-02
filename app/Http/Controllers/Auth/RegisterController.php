@@ -76,7 +76,10 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data,
+        $niceNames = array(
+            'zip_code' => __('register.zip_code')
+        );
+        $validator = Validator::make($data,
             [
                 'name' => ['required', 'string', 'max:255'],
                 'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
@@ -94,6 +97,8 @@ class RegisterController extends Controller
                 'g-recaptcha-response' => ['required', 'captcha']
             ]
         );
+        $validator->setAttributeNames($niceNames);
+        return $validator;
     }
 
     /**

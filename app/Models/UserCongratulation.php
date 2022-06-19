@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 class UserCongratulation extends Model
 {
@@ -40,6 +41,7 @@ class UserCongratulation extends Model
         'user_sign',
         'is_published',
         'is_private',
+        'is_blocked',
         'is_read',
         'to',
         'deleted_by_to',
@@ -104,5 +106,13 @@ class UserCongratulation extends Model
 
     public function scopeOnlyPublic($query){
         return $query->where('is_private', false);
+    }
+
+    /**
+     * @return MorphMany
+     */
+    public function complains(): MorphMany
+    {
+        return $this->morphMany(Complain::class, 'model');
     }
 }

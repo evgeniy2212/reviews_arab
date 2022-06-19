@@ -48,6 +48,7 @@ return [
     'password_enter' => 'من فضلك أدخل رقمك السري',
     'continue' => 'تقدم',
     'close' => 'إغلاق',
+    'open' => 'افتح',
     'forgot_password_question' => 'نسيت رقمك السري؟',
     'enter_email' => 'الرجاء إدخال البريد الإلكتروني الذي تستخدمه.',
     'personal_info' => 'معلومات شخصية',

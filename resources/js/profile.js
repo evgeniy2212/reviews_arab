@@ -428,6 +428,6 @@
                 $(this).css('display', 'flex');
             }
         });
-        $(this).text().trim() !== 'Close' ? $(this).text('Close') : $(this).text('Complains (' + $(this).data('complains') + ')');
+        $(this).text().trim() !== 'إغلاق' ? $(this).text('إغلاق') : $(this).text('شكاوي (' + $(this).data('complains') + ')');
     });
 })(jQuery);

@@ -11,6 +11,8 @@
         "php": "^7.2|^8.0",
         "ext-gd": "*",
         "anhskohbo/no-captcha": "^3.2",
+        "doctrine/dbal": "^2.10",
+        "jorenvanhocht/laravel-share": "^3.3.0",
         "astrotomic/laravel-translatable": "^11.9",
         "fideloper/proxy": "^4.0",
         "fzaninotto/faker": "^1.9.1",

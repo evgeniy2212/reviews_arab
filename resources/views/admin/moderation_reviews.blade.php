@@ -8,7 +8,7 @@
                     <a class="admin-complain {{ (array_key_exists('is_new', $paginateParams) && $paginateParams['is_new'] === '1')
                                             ? 'active'
                                             : ''}}"
-                       href="{{ route('admin.complains.index', ['is_new' => 1]) }}">@lang('service/index.new') ({!! $newReviewsCnt !!})</a>
+                       href="{{ route('admin.moderations.index', ['is_new' => 1]) }}">@lang('service/index.new') ({!! $newReviewsCnt !!})</a>
                 </div>
             </div>
             <div class="adminFilterItem">

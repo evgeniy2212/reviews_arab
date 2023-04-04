@@ -32,7 +32,7 @@ class ReviewDisableNotificationEmail extends Mailable
      */
     public function build()
     {
-        return $this->subject('You`ve Been Reviewed on ' . config('app.name'))
+        return $this->subject('لقد تم مراجعتك في ' . config('app.name'))
             ->markdown(
             'mails.' . 'review_disable_notification',
             [

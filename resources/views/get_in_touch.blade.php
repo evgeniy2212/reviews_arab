@@ -104,7 +104,7 @@
                     <div class="create-review-buttons">
                         <div class="col-md-2">
                             <button type="submit" class="createReviewButton loginButton submitTouchInfoButton">
-                                @lang('service/index.save')
+                                @lang('service/index.send')
                             </button>
                         </div>
                     </div>

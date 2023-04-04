@@ -58,6 +58,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'email_verified_at',
         'is_blocked',
         'is_blocked_cnt',
+        'chat_status'
     ];
 
     /**
@@ -232,5 +233,46 @@ class User extends Authenticatable implements MustVerifyEmail
     public function sendEmailVerificationNotification()
     {
         $this->notify(new VerifyEmailNotification());
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function chats()
+    {
+        return $this->belongsToMany(
+            Chat::class,
+            'chat_users',
+            'user_id',
+            'chat_id'
+        );
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function contacts(){
+        return $this->belongsToMany(
+            User::class,
+            'chat_contacts',
+            'user_id',
+            'contact_id'
+        )
+            ->withPivot(['user_id', 'contact_id', 'name', 'last_name']);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public function getActiveContactsAttribute()
+    {
+        return $this->contacts()
+            ->with(['chats' => function($q){
+                $q->whereHas('users', function($query){
+                    $query->whereId($this->id);
+                });
+            }])
+            ->wherePivot('contact_confirm', 1)
+            ->get();
     }
 }

@@ -2,7 +2,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <span>
-                {!! \App\Services\DataService::getTranslate('service/index.thank_you_for.review') !!}
+                {{ __('service/index.thank_you_for', ['item' => 'مراجعة']) }}
             </span>
             <span>
                 @lang('service/message.review_find')

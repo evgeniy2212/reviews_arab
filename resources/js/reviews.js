@@ -243,6 +243,12 @@
                     success:function(data){
                         review.find('textarea').val('');
                         review.find('button').removeAttr("disabled");
+                        if (response.success === true) {
+                            $('.successMessageContent').remove();
+                            $('#successMessageContent').text(response.message);
+                            $('#successMessageContent').removeAttr('hidden');
+                            $('#successMessage').modal();
+                        }
                     }
                 });
             } else {

@@ -45,7 +45,7 @@
                     name="category_by_review_id"
                     required>
                 <option {{ empty($review) ? 'selected' : '' }} disabled value="">
-                    {!! \App\Services\DataService::getTranslate('service/index.select.country') !!}
+                    {{ trans('service/index.select_item', ['item' => __('service/index.category')]) }}
                 </option>
                 @foreach($categories as $id => $category)
                     <option value="{{ $id }}" {{ (!empty($review) && ($review->getCategoryByReviewId() == $id)) ? 'selected' : '' }}>{!! $category !!}</option>

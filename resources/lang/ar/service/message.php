@@ -2,6 +2,8 @@
 return [
     'mail.hi_this' => 'مرحبا هو',
     'mail.to_the' => 'اذهب إلى',
+    'mail.hi' => 'مرحبًا, ',
+    'mail.agree' => 'دردشة مفتوحة',
     'mail.regards' => 'أطيب الأماني',
     'log_into_account' => 'تسجيل الدخول وترك تعليقك!',
     'communication_reviewer' => 'فتح تواصل مع صاحب التقييم',

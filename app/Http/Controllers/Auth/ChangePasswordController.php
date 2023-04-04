@@ -17,12 +17,12 @@ class ChangePasswordController extends Controller
 
         if (!(Hash::check($request->get('current-password'), Auth::user()->password))) {
             // The passwords matches
-            return redirect()->back()->withErrors(["Your current password does not matches with the password you provided. Please try again."]);
+            return redirect()->back()->withErrors(["كلمة المرور الحالية لا تتطابق مع كلمة المرور التي قدمتها. حاول مرة اخرى."]);
         }
 
         if(strcmp($request->get('current-password'), $request->get('new-password')) == 0){
             //Current password and new password are same
-            return redirect()->back()->withErrors(["New Password cannot be same as your current password. Please choose a different password."]);
+            return redirect()->back()->withErrors(["لا يمكن أن تكون كلمة المرور الجديدة هي نفسها كلمة مرورك الحالية. الرجاء اختيار كلمة مرور مختلفة."]);
         }
 
         $validatedData = $request->validate([

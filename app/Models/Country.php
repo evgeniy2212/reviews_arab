@@ -41,7 +41,7 @@ class Country extends Model implements TranslatableContract
             ->toArray();
     }
 
-    public function getAllCountries(){
+    public function getAllCountries($categoryId = null){
         return $this->enabled()
             ->get()
             ->mapWithKeys(function($item, $key) {
@@ -49,7 +49,7 @@ class Country extends Model implements TranslatableContract
             });
     }
 
-    public function getCountriesContainRegions(){
+    public function getCountriesContainRegions($categoryId = null){
         return $this->enabled()
             ->whereHas('regions')
             ->get()

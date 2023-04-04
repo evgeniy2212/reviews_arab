@@ -2,7 +2,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <span>
-                {{ __('service/index.thank_you_for', ['item' => 'review']) }}
+                {{ __('service/index.thank_you_for', ['item' => 'مراجعة']) }}
             </span>
             <span>
                 @lang('service/message.review_on_moderation')

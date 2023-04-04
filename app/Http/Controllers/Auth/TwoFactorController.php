@@ -39,7 +39,7 @@ class TwoFactorController extends Controller
         }
         return redirect()->back()
             ->withErrors(['two_factor_code' =>
-                'The two factor code you have entered does not match']);
+                'كود العاملين الذي أدخلته غير متطابق']);
     }
 
     public function resend()
@@ -47,6 +47,6 @@ class TwoFactorController extends Controller
         $user = auth()->user();
         $user->generateTwoFactorCode();
         $user->notify(new TwoFactorCode());
-        return redirect()->back()->withMessage('Two factor code was sent again.');
+        return redirect()->back()->withMessage('تم إرسال رمز عاملي مرة أخرى.');
     }
 }

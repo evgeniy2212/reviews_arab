@@ -1,16 +1,16 @@
 @component('mail::message')
-Hello!
+    مرحبًا!
 
-A review about your company was left on "{{ config('app.name') }}".
+    ."{{ config('app.name') }} "تم ترك مراجعة حول شركتك في
 
-To read the review, click the link below:
+    لقراءة المراجعة ، انقر فوق الارتباط أدناه:
 @component('mail::button', ['url' => $url])
-    "See The Review"
+    "انظر الاستعراض"
 @endcomponent
 
-Thanks for your time!
+    شكرا على وقتك!
 
-Respectfully,
+    باحترام،
 
 The {{ config('app.name') }} Team
 @endcomponent

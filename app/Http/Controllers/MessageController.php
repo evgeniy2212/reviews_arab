@@ -16,9 +16,9 @@ class MessageController extends Controller
         $request->merge(['to' => $toUser]);
         $message = Message::create($request->all());
 
-        return new MessageSendResource([
+        return new MessageSendResource(
             $message
-        ]);
+        );
     }
 
     private function getToUserId($reviewId){

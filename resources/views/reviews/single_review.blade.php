@@ -173,7 +173,8 @@
                         </div>
                 @endauth
                 <div class="col-md-5 col-lg-4 offset-md-7 offset-lg-8">
-                    <button class="otherButton" style="white-space: nowrap"
+                    <button class="otherButton"
+                            style="white-space: nowrap; margin-top: 10px; text-decoration: none; color: #1b1e21;"
                             id="commentButton-{{ $review->id }}"
                             data-close="{!! __('service/index.close') !!}"
                             data-show-comments="{!! __('service/index.reviews.show_comments') !!}"
@@ -186,7 +187,8 @@
                         <a type="button"
                            href=""
                            data-toggle="modal"
-                           class="otherButton" style="white-space: nowrap; margin-top: 10px; text-decoration: none; color: #1b1e21;"
+                           class="otherButton"
+                           style="white-space: nowrap; margin-top: 10px; text-decoration: none; color: #1b1e21;"
                            id="complainButton-{{ $review->id }}"
                            data-review-model-id="{{ $review->id }}"
                            data-review-model-type="{{ get_class($review) }}"

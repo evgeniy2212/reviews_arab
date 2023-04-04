@@ -14,6 +14,11 @@ class ReviewCategory extends Model implements TranslatableContract
         'title'
     ];
 
+    const PERSON = 'person';
+    const COMPANY = 'company';
+    const GOODS = 'goods';
+    const VOCATIONS = 'vocations';
+
     public $with = [
         'translations',
     ];

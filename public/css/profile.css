@@ -236,7 +236,7 @@
 .profile-single-congratulation .congratulation-category {
     text-align: right;
     text-shadow: 1px 1px 5px #2f5496;
-    float: right;
+    /*float: right;*/
     /*width: -webkit-min-content;*/
     /*width: -moz-min-content;*/
     /*width: min-content;*/

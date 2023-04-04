@@ -27,7 +27,7 @@
                         </span>
                     <div>
                         <span class="home-point-content home-point-show">
-                            {!! __('service/home.only_site', ['name' => env('APP_NAME')]) !!}
+                            {!! __('service/home.only_site', ['name' => __('service/index.site_name')]) !!}
                         </span>
                     </div>
                 </div>

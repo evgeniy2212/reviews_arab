@@ -40,9 +40,9 @@ class ReviewCreate extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->greeting('Hello, ' . $notifiable->full_name)
-                    ->line( config('app.name') . ' informs you create the review at the ' . config('app.name'))
-                    ->line( config('app.name') . ' informs you create the review at the ' . config('app.name'))
+                    ->greeting('مرحبًا, ' . $notifiable->full_name)
+                    ->line( config('app.name') . ' يبلغك بإنشاء المراجعة في ' . config('app.name'))
+                    ->line( config('app.name') . ' يبلغك بإنشاء المراجعة في ' . config('app.name'))
                     ->action(config('app.name'), url('/'));
     }
 

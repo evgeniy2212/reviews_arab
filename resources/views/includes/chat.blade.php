@@ -14,7 +14,7 @@
                 <span class="chat__count">2</span>
             </div>
         </div>
-        <button class="chat__close js-close-chat" type="button">Close</button>
+        <button class="chat__close js-close-chat" type="button">يغلق</button>
         <div class="chat__inner">
             <div class="chat__contacts">
                 <div class="chat__contact is-online js-chat-contact">

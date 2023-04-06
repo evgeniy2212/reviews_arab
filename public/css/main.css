@@ -100,6 +100,7 @@ html, body {
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
     padding-top: 10px;
+    position: relative;
 }
 .container {
     max-width: 980px !important;
@@ -1851,8 +1852,7 @@ button:disabled {
 /*--------- chat ------------ */
 .chat__wrapper {
     position: absolute;
-    right: 0;
-    left: calc((100vw + 980px) / 2);
+    right: calc((100vw + 980px) / 2);
     top: 12px;
     width: 360px;
     height: calc(100vh - 264px);
@@ -1903,8 +1903,8 @@ button:focus {
 
 .chat__open-text {
     padding: 0 20px;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
     border: 2px solid #a0a3af;
     background-color: #618ddb;
     font-size: 16px;
@@ -1917,7 +1917,7 @@ button:focus {
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    margin-right: -10px;
+    margin-left: -10px;
     border-radius: 50%;
     background-color: #618ddb;
     border: 2px solid #a0a3af;
@@ -1987,7 +1987,7 @@ button:focus {
 .chat__inner{
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     padding: 5px;
@@ -2066,7 +2066,7 @@ button:focus {
 }
 
 .chat__name {
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .chat__row {
@@ -2294,7 +2294,7 @@ button:focus {
 .chat__count {
     width: 28px;
     height: 28px;
-    margin-left: 6px;
+    margin-right: 6px;
     background: #2f5496;
     color: #fff;
     display: flex;
@@ -2319,7 +2319,7 @@ button:focus {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    margin-left: 6px;
+    margin-right: 6px;
     border: 0;
     font-size: 20px;
     background-color: transparent;
@@ -2328,9 +2328,9 @@ button:focus {
 .chat__emoji-holder {
     position: absolute;
     top: 3px;
-    left: 0;
+    right: 0;
     bottom: 7px;
-    right: 30px;
+    left: 30px;
     display: flex;
     align-items: flex-start;
     max-height: 100%;
@@ -2368,22 +2368,22 @@ button:focus {
 }
 
 .chat__message.receiver .checkbox-item {
-    right: 100%;
-}
-
-.chat__message.sender .checkbox-item {
     left: 100%;
 }
 
+.chat__message.sender .checkbox-item {
+    right: 100%;
+}
+
 .chat__message.sender label::before {
-    margin-right: 0;
-    margin-left: .5em;
+    margin-right: .5em;
+    margin-left: 0;
 }
 
 @media screen and (max-width: 1710px) {
     .chat__wrapper {
         left: calc((100vw + 960px) / 2);
-        width: calc((100vw - 980px) / 2);
+        width: calc((100vw - 1000px) / 2);
     }
 }
 
@@ -2403,8 +2403,8 @@ button:focus {
 
 @media screen and (max-width: 1500px) {
     .chat__wrapper {
-        left: auto;
-        right: 16px;
+        left: 16px;
+        right: auto;
         width: 360px;
     }
 }
@@ -2457,7 +2457,6 @@ button:focus {
         bottom: -55px;
     }
 
-
     .chat__holder {
         padding-left: 35px;
         padding-right: 35px;
@@ -2473,8 +2472,7 @@ button:focus {
 @media screen and (max-width: 1024px) {
 
     .chat__open {
-        left: auto;
-        right: 0;
+        left: 0;
         transform: translateX(0);
     }
 }
@@ -2492,7 +2490,7 @@ button:focus {
     .chat__open {
         position: fixed;
         bottom: 10px;
-        right: 16px;
+        left: 16px;
         z-index: -1;
     }
     .chat__wrapper {

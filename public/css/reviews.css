@@ -311,9 +311,6 @@ input[type="file"] {
     }
 }
 @media screen and (max-height: 800px) {
-    .review-content-place {
-        height: auto;
-    }
     .content-place:not(.home-content-place) {
         padding-bottom: 8px;
     }

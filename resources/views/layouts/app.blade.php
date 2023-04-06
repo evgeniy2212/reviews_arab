@@ -63,6 +63,11 @@
     <img class="image-modal-content" id="img01">
     <div id="caption"></div>
 </div>
+@dd(env('PUSHER_APP_ID'))
+@dd(env('PUSHER_APP_KEY'))
+@dd(env('PUSHER_APP_SECRET'))
+@dd(env('PUSHER_APP_CLUSTER'))
+@dd(env('BROADCAST_DRIVER'))
 @include('includes.share')
 @include('includes.modal.sliderBodyModal')
 @include('includes.modal.instructions')
